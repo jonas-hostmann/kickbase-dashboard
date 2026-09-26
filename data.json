@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T21:16:04+02:00",
+  "updatedAt": "2026-09-26T21:55:12+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
   "budget": 9767155,
@@ -26,7 +26,7 @@
       "position": "ABW",
       "score": 66.5,
       "price": 10282367,
-      "expiresIn": 13.8
+      "expiresIn": 13.1
     },
     {
       "name": "Nikola Katic",
@@ -34,7 +34,7 @@
       "position": "ABW",
       "score": 66.2,
       "price": 13717663,
-      "expiresIn": 39.4
+      "expiresIn": 38.7
     },
     {
       "name": "Mitchell Weiser",
@@ -42,7 +42,7 @@
       "position": "ABW",
       "score": 66.2,
       "price": 7674409,
-      "expiresIn": 45.9
+      "expiresIn": 45.2
     },
     {
       "name": "Luca Reggiani",
@@ -50,7 +50,7 @@
       "position": "ABW",
       "score": 61.5,
       "price": 4054820,
-      "expiresIn": 19.8
+      "expiresIn": 19.1
     }
   ],
   "sellCandidates": [
@@ -76,12 +76,11 @@
     },
     {
       "name": "Gruber",
-      "reason": "KRITISCH 300-Punkte-Regel: 469 >= 300 – Auto-Abgabe droht; Verkauf erwägen, um Marktwert (12.613.738 €) mitzunehmen",
+      "reason": "MW fällt (-1.208.115 € seit Vortag)",
       "value": 12613738
     }
   ],
   "alerts": [
-    "300-Punkte-Gefahr: Gruber – KRITISCH 300-Punkte-Regel",
     "Aufstellung enthält verletzte/angeschlagene Spieler (nicht genug fitte Spieler im Kader)"
   ],
   "lastActions": [
@@ -89,6 +88,11 @@
       "ts": "2026-09-26T21:15:24.730783Z",
       "type": "no_action_review",
       "text": "Keine autonome Aktion: weder Kauf noch Verkauf"
+    },
+    {
+      "ts": "2026-09-26T19:54:56.125436Z",
+      "type": "transfer_recommendation",
+      "text": "Kein freigegebener Kauf-Kandidat (Constraints oder Marktlage)"
     },
     {
       "ts": "2026-09-26T19:13:54.483496Z",
@@ -104,11 +108,6 @@
       "ts": "2026-09-26T16:04:43.336927Z",
       "type": "weekly_review",
       "text": "0 Käufe (0 €), 0 Verkäufe (0 €), Bilanz +0 €"
-    },
-    {
-      "ts": "2026-09-26T16:04:41.533864Z",
-      "type": "lineup_recommendation",
-      "text": "Formation 4-5-1, Gesamtscore 576.5 (ACHTUNG: nicht genug fitte Spieler – Angeschlagene/Verletzte enthalten)"
     }
   ],
   "marketSize": 21
