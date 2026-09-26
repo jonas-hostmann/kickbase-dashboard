@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T20:08:35+02:00",
+  "updatedAt": "2026-09-26T21:16:04+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
   "budget": 9767155,
@@ -12,14 +12,6 @@
     "playersAffected": 0
   },
   "topBuys": [
-    {
-      "name": "Ezequiél Fernández",
-      "club": "Leverkusen",
-      "position": "MF",
-      "score": 83.5,
-      "price": 13713140,
-      "expiresIn": 1.8
-    },
     {
       "name": "Lukasz Poreba",
       "club": "Elversberg",
@@ -34,7 +26,7 @@
       "position": "ABW",
       "score": 66.5,
       "price": 10282367,
-      "expiresIn": 17.0
+      "expiresIn": 13.8
     },
     {
       "name": "Nikola Katic",
@@ -42,7 +34,15 @@
       "position": "ABW",
       "score": 66.2,
       "price": 13717663,
-      "expiresIn": 42.6
+      "expiresIn": 39.4
+    },
+    {
+      "name": "Mitchell Weiser",
+      "club": "Bremen",
+      "position": "ABW",
+      "score": 66.2,
+      "price": 7674409,
+      "expiresIn": 45.9
     },
     {
       "name": "Luca Reggiani",
@@ -50,7 +50,7 @@
       "position": "ABW",
       "score": 61.5,
       "price": 4054820,
-      "expiresIn": 23.0
+      "expiresIn": 19.8
     }
   ],
   "sellCandidates": [
@@ -86,6 +86,16 @@
   ],
   "lastActions": [
     {
+      "ts": "2026-09-26T21:15:24.730783Z",
+      "type": "no_action_review",
+      "text": "Keine autonome Aktion: weder Kauf noch Verkauf"
+    },
+    {
+      "ts": "2026-09-26T19:13:54.483496Z",
+      "type": "transfer_recommendation",
+      "text": "Kein freigegеbener Kauf-Kandidat (Constraints oder Marktlage)"
+    },
+    {
       "ts": "2026-09-26T16:06:04.742747Z",
       "type": "post_matchday",
       "text": "Spieltag 4: 981 Team-Punkte, 0 Prognosen nachgetragen"
@@ -99,12 +109,7 @@
       "ts": "2026-09-26T16:04:41.533864Z",
       "type": "lineup_recommendation",
       "text": "Formation 4-5-1, Gesamtscore 576.5 (ACHTUNG: nicht genug fitte Spieler – Angeschlagene/Verletzte enthalten)"
-    },
-    {
-      "ts": "2026-09-26T16:03:39.817186Z",
-      "type": "transfer_recommendation",
-      "text": "Kein freigegebener Kauf-Kandidat (Constraints oder Marktlage)"
     }
   ],
-  "marketSize": 20
+  "marketSize": 21
 }
