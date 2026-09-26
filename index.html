@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kickbase-Zentrale</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Kickbase">
+<meta name="theme-color" content="#0d1a12">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon.svg">
+<link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+<style>
+  :root {
+    --bg: #0b120d;
+    --bg2: #101a13;
+    --card: #14211a;
+    --card2: #182a1f;
+    --line: #24402e;
+    --green: #2ee66b;
+    --green-dim: #1fce6d;
+    --text: #e9f4ec;
+    --muted: #8fae99;
+    --amber: #ffc857;
+    --red: #ff5c5c;
+    --radius: 14px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 1.45;
+    padding: calc(env(safe-area-inset-top) + 12px) 14px calc(env(safe-area-inset-bottom) + 16px);
+    max-width: 720px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-image: radial-gradient(ellipse 80% 40% at 50% -10%, rgba(46,230,107,.10), transparent);
+  }
+  header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+  header .ball { width: 40px; height: 40px; flex: none; border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #3d8f5f, #173022 70%);
+    display: flex; align-items: center; justify-content: center;
+    border: 2px solid var(--line); }
+  header .ball svg { width: 26px; height: 26px; }
+  header h1 { font-size: 20px; font-weight: 700; letter-spacing: .2px; }
+  header .sub { color: var(--muted); font-size: 13px; }
+  .badge {
+    margin-left: auto; background: var(--card2); border: 1px solid var(--line);
+    color: var(--green); font-weight: 700; font-size: 13px;
+    padding: 6px 12px; border-radius: 999px; white-space: nowrap;
+  }
+
+  .error-banner {
+    display: none; background: #3a2413; border: 1px solid #6b4a1f; color: var(--amber);
+    padding: 10px 12px; border-radius: var(--radius); font-size: 13px; margin-bottom: 14px;
+  }
+  .error-banner.show { display: block; }
+
+  .kpis { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 14px; }
+  @media (min-width: 560px) { .kpis { grid-template-columns: repeat(4, 1fr); } }
+  .kpi {
+    background: linear-gradient(160deg, var(--card2), var(--card));
+    border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px;
+  }
+  .kpi .label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .8px; }
+  .kpi .value { font-size: 21px; font-weight: 800; margin-top: 4px; font-variant-numeric: tabular-nums; }
+  .kpi .value small { font-size: 13px; color: var(--muted); font-weight: 600; }
+
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 14px; margin-bottom: 14px;
+  }
+  .card h2 {
+    font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted);
+    margin-bottom: 10px; display: flex; align-items: center; gap: 8px;
+  }
+  .card h2::before { content: ""; width: 8px; height: 8px; border-radius: 2px; background: var(--green); }
+
+  .alerts .alert {
+    padding: 10px 12px; border-radius: 10px; font-size: 13.5px; margin-bottom: 8px;
+    background: #2c1a12; border: 1px solid #5c3a20; color: var(--amber);
+  }
+  .alerts .alert.critical { background: #33161a; border-color: #6e2a32; color: var(--red); font-weight: 600; }
+  .alerts .alert:last-child { margin-bottom: 0; }
+
+  .nextmatch .label { font-size: 17px; font-weight: 700; }
+  .nextmatch .meta { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  .nextmatch .meta b { color: var(--text); }
+  .countdown { color: var(--green); font-weight: 700; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th { text-align: left; color: var(--muted); font-size: 11px; text-transform: uppercase;
+       letter-spacing: .5px; padding: 4px 6px; border-bottom: 1px solid var(--line); }
+  td { padding: 7px 6px; border-bottom: 1px solid rgba(36,64,46,.5); }
+  tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .score { font-weight: 800; color: var(--green); }
+  .score.mid { color: var(--amber); }
+  .expires { white-space: nowrap; }
+  .expires.soon { color: var(--amber); font-weight: 700; }
+  .pos { color: var(--muted); }
+
+  .sell-item { padding: 8px 0; border-bottom: 1px solid rgba(36,64,46,.5); }
+  .sell-item:last-child { border-bottom: none; }
+  .sell-item .row { display: flex; justify-content: space-between; gap: 10px; }
+  .sell-item .name { font-weight: 700; }
+  .sell-item .value { font-variant-numeric: tabular-nums; color: var(--green); font-weight: 700; white-space: nowrap; }
+  .sell-item .reason { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+
+  .action { display: flex; gap: 10px; padding: 8px 0; border-bottom: 1px solid rgba(36,64,46,.5); font-size: 13px; }
+  .action:last-child { border-bottom: none; }
+  .action .when { color: var(--muted); white-space: nowrap; flex: none; width: 64px; }
+  .action .type { color: var(--green-dim); font-size: 11px; text-transform: uppercase; letter-spacing: .5px; }
+
+  footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 18px; }
+  .empty { color: var(--muted); font-size: 13px; padding: 6px 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="ball" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#eef7f0"/>
+      <path d="M12 7.5l4.2 3-1.6 5h-5.2l-1.6-5z" fill="#173022"/>
+      <path d="M12 2.2v5.3M20.9 8.6l-4.9 1.9M18.4 19.6l-3.8-4.1M5.6 19.6l3.8-4.1M3.1 8.6l4.9 1.9" stroke="#173022" stroke-width="1.4"/></svg>
+  </div>
+  <div>
+    <h1>Kickbase-Zentrale</h1>
+    <div class="sub" id="league">Liga lädt …</div>
+  </div>
+  <div class="badge" id="placement">–</div>
+</header>
+
+<div class="error-banner" id="errorBanner">Daten konnten nicht aktualisiert werden – Anzeige des letzten Stands.</div>
+
+<section class="kpis">
+  <div class="kpi"><div class="label">Budget</div><div class="value" id="kpiBudget">–</div></div>
+  <div class="kpi"><div class="label">Teamwert</div><div class="value" id="kpiTeamValue">–</div></div>
+  <div class="kpi"><div class="label">Kader</div><div class="value" id="kpiSquad">–</div></div>
+  <div class="kpi"><div class="label">Markt</div><div class="value" id="kpiMarket">–</div></div>
+</section>
+
+<section class="card alerts" id="alertsCard" style="display:none">
+  <h2>Alerts</h2>
+  <div id="alerts"></div>
+</section>
+
+<section class="card nextmatch" id="nextMatchCard" style="display:none">
+  <h2>Nächstes Spiel</h2>
+  <div class="label" id="nmLabel">–</div>
+  <div class="meta" id="nmMeta"></div>
+</section>
+
+<section class="card">
+  <h2>Top-Käufe (Transfermarkt)</h2>
+  <table>
+    <thead><tr>
+      <th>Name</th><th>Verein</th><th>Pos</th>
+      <th class="num">Score</th><th class="num">Preis</th><th class="num">Endet in</th>
+    </tr></thead>
+    <tbody id="topBuys"><tr><td colspan="6" class="empty">keine Daten</td></tr></tbody>
+  </table>
+</section>
+
+<section class="card">
+  <h2>Verkaufs-Kandidaten</h2>
+  <div id="sellCandidates"><div class="empty">keine Daten</div></div>
+</section>
+
+<section class="card">
+  <h2>Letzte Entscheidungen</h2>
+  <div id="lastActions"><div class="empty">keine Daten</div></div>
+</section>
+
+<footer id="footer">Stand: –</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  // ---------- Formatierung (deutsch) ----------
+  function fmtEUR(v) {
+    if (v === null || v === undefined || isNaN(v)) return "–";
+    var n = Number(v);
+    if (Math.abs(n) >= 1e6) {
+      return (n / 1e6).toLocaleString("de-DE", { maximumFractionDigits: 1 }) + " Mio €";
+    }
+    if (Math.abs(n) >= 1e3) {
+      return (n / 1e3).toLocaleString("de-DE", { maximumFractionDigits: 0 }) + " Tsd €";
+    }
+    return n.toLocaleString("de-DE") + " €";
+  }
+  function fmtHours(h) {
+    if (h === null || h === undefined || isNaN(h)) return "–";
+    var n = Number(h);
+    if (n <= 0.2) return "endet!";
+    if (n < 24) return n.toLocaleString("de-DE", { maximumFractionDigits: 1 }) + " h";
+    return Math.round(n / 24).toLocaleString("de-DE") + " d";
+  }
+  function fmtDateTime(iso) {
+    if (!iso) return "–";
+    var d = new Date(iso);
+    if (isNaN(d)) return iso;
+    return d.toLocaleDateString("de-DE", { weekday: "short", day: "2-digit", month: "2-digit" }) +
+           ", " + d.toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" }) + " Uhr";
+  }
+  function fmtRelative(iso) {
+    var d = new Date(iso);
+    if (isNaN(d)) return "–";
+    var mins = Math.round((Date.now() - d.getTime()) / 60000);
+    if (mins < 1) return "gerade";
+    if (mins < 60) return "vor " + mins + " min";
+    var h = Math.round(mins / 60);
+    if (h < 24) return "vor " + h + " h";
+    var days = Math.round(h / 24);
+    return "vor " + days + " d";
+  }
+  function esc(s) {
+    return String(s === null || s === undefined ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  // ---------- Rendering ----------
+  function render(d) {
+    document.getElementById("league").textContent = d.league || "Unbekannte Liga";
+    document.getElementById("placement").textContent = d.placement ? ("Platz " + d.placement) : "–";
+
+    document.getElementById("kpiBudget").textContent = fmtEUR(d.budget);
+    document.getElementById("kpiTeamValue").textContent = fmtEUR(d.teamValue);
+    document.getElementById("kpiSquad").innerHTML =
+      (d.squadCount != null ? esc(d.squadCount) : "–") + ' <small>/ ' + esc(d.squadMax || 14) + "</small>";
+    document.getElementById("kpiMarket").innerHTML =
+      (d.marketSize != null ? esc(d.marketSize) : "–") + ' <small>Spieler</small>';
+
+    // Alerts (kritisch hervorgehoben)
+    var alertsCard = document.getElementById("alertsCard");
+    var alertsEl = document.getElementById("alerts");
+    if (Array.isArray(d.alerts) && d.alerts.length) {
+      alertsCard.style.display = "";
+      alertsEl.innerHTML = d.alerts.map(function (a) {
+        var crit = /KRITISCH|300-Punkte|verletzt/i.test(a) ? " critical" : "";
+        return '<div class="alert' + crit + '">' + esc(a) + "</div>";
+      }).join("");
+    } else {
+      alertsCard.style.display = "none";
+      alertsEl.innerHTML = "";
+    }
+
+    // Nächstes Spiel
+    var nmCard = document.getElementById("nextMatchCard");
+    if (d.nextMatch) {
+      nmCard.style.display = "";
+      document.getElementById("nmLabel").textContent = d.nextMatch.label || "–";
+      var meta = fmtDateTime(d.nextMatch.kickoff);
+      var ko = new Date(d.nextMatch.kickoff);
+      if (!isNaN(ko)) {
+        var hrs = (ko.getTime() - Date.now()) / 3600000;
+        if (hrs > 0) meta += ' · <span class="countdown">in ' + fmtHours(hrs) + "</span>";
+      }
+      meta += " · betroffene eigene Spieler: <b>" + esc(d.nextMatch.playersAffected != null ? d.nextMatch.playersAffected : "–") + "</b>";
+      document.getElementById("nmMeta").innerHTML = meta;
+    } else {
+      nmCard.style.display = "none";
+    }
+
+    // Top-Käufe
+    var tb = document.getElementById("topBuys");
+    if (Array.isArray(d.topBuys) && d.topBuys.length) {
+      tb.innerHTML = d.topBuys.map(function (b) {
+        var sc = Number(b.score);
+        var scClass = "score" + (sc < 60 ? " mid" : "");
+        var exClass = "expires" + (Number(b.expiresIn) <= 2 ? " soon" : "");
+        return "<tr><td><b>" + esc(b.name) + "</b></td><td>" + esc(b.club) + "</td>" +
+               '<td class="pos">' + esc(b.position) + "</td>" +
+               '<td class="num ' + scClass + '">' + esc(b.score) + "</td>" +
+               '<td class="num">' + fmtEUR(b.price) + "</td>" +
+               '<td class="num ' + exClass + '">' + fmtHours(b.expiresIn) + "</td></tr>";
+      }).join("");
+    } else {
+      tb.innerHTML = '<tr><td colspan="6" class="empty">keine Kauf-Empfehlungen</td></tr>';
+    }
+
+    // Verkaufs-Kandidaten
+    var sc = document.getElementById("sellCandidates");
+    if (Array.isArray(d.sellCandidates) && d.sellCandidates.length) {
+      sc.innerHTML = d.sellCandidates.map(function (s) {
+        return '<div class="sell-item"><div class="row"><span class="name">' + esc(s.name) +
+               '</span><span class="value">' + fmtEUR(s.value) + '</span></div>' +
+               '<div class="reason">' + esc(s.reason) + "</div></div>";
+      }).join("");
+    } else {
+      sc.innerHTML = '<div class="empty">keine Verkaufs-Kandidaten</div>';
+    }
+
+    // Letzte Entscheidungen
+    var la = document.getElementById("lastActions");
+    if (Array.isArray(d.lastActions) && d.lastActions.length) {
+      la.innerHTML = d.lastActions.map(function (a) {
+        return '<div class="action"><span class="when">' + fmtRelative(a.ts) + "</span>" +
+               "<span><span class=\"type\">" + esc(a.type) + "</span><br>" + esc(a.text) + "</span></div>";
+      }).join("");
+    } else {
+      la.innerHTML = '<div class="empty">keine Einträge</div>';
+    }
+
+    document.getElementById("footer").textContent = "Stand: " + fmtDateTime(d.updatedAt);
+  }
+
+  // ---------- Laden mit Cache-Buster; Fehlerfall: letzte Daten behalten ----------
+  var hasData = false;
+  function load() {
+    fetch("data.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(function (d) {
+        hasData = true;
+        document.getElementById("errorBanner").classList.remove("show");
+        render(d);
+      })
+      .catch(function () {
+        if (hasData) document.getElementById("errorBanner").classList.add("show");
+        else document.getElementById("footer").textContent = "Keine Daten verfügbar.";
+      });
+  }
+  load();
+  setInterval(load, 5 * 60 * 1000); // Auto-Reload alle 5 Minuten
+
+  // ---------- Service Worker (Offline-Anzeige) ----------
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js").catch(function () {});
+  }
+})();
+</script>
+</body>
+</html>
