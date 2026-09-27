@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-26T21:55:12+02:00",
+  "updatedAt": "2026-09-27T08:16:20+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
   "budget": 9767155,
-  "teamValue": 121324607,
+  "teamValue": 119267382,
   "squadCount": 11,
   "squadMax": 14,
   "nextMatch": {
@@ -12,6 +12,14 @@
     "playersAffected": 0
   },
   "topBuys": [
+    {
+      "name": "Nikola Katic",
+      "club": "Schalke",
+      "position": "ABW",
+      "score": 74.9,
+      "price": 13866044,
+      "expiresIn": 28.4
+    },
     {
       "name": "Lukasz Poreba",
       "club": "Elversberg",
@@ -25,32 +33,24 @@
       "club": "Union Berlin",
       "position": "ABW",
       "score": 66.5,
-      "price": 10282367,
-      "expiresIn": 13.1
-    },
-    {
-      "name": "Nikola Katic",
-      "club": "Schalke",
-      "position": "ABW",
-      "score": 66.2,
-      "price": 13717663,
-      "expiresIn": 38.7
+      "price": 10311961,
+      "expiresIn": 2.8
     },
     {
       "name": "Mitchell Weiser",
       "club": "Bremen",
       "position": "ABW",
       "score": 66.2,
-      "price": 7674409,
-      "expiresIn": 45.2
+      "price": 7949770,
+      "expiresIn": 34.9
     },
     {
       "name": "Luca Reggiani",
       "club": "Dortmund",
       "position": "ABW",
       "score": 61.5,
-      "price": 4054820,
-      "expiresIn": 19.1
+      "price": 3910314,
+      "expiresIn": 8.8
     }
   ],
   "sellCandidates": [
@@ -61,29 +61,39 @@
     },
     {
       "name": "Kawasaki",
-      "reason": "MW fällt (-639.676 € seit Vortag)",
+      "reason": "MW fällt (-519.647 € seit Vortag)",
       "value": 500000
     },
     {
       "name": "Onyedika",
-      "reason": "Status st=2",
-      "value": 9790043
+      "reason": "MW fällt (-610.516 € seit Vortag)",
+      "value": 9321714
     },
     {
       "name": "Seiwald",
-      "reason": "MW fällt (-4.604.445 € seit Vortag)",
-      "value": 9870221
+      "reason": "MW fällt (-4.438.234 € seit Vortag)",
+      "value": 9521767
     },
     {
       "name": "Gruber",
-      "reason": "MW fällt (-1.208.115 € seit Vortag)",
-      "value": 12613738
+      "reason": "MW fällt (-1.922.820 € seit Vortag)",
+      "value": 11919350
     }
   ],
   "alerts": [
     "Aufstellung enthält verletzte/angeschlagene Spieler (nicht genug fitte Spieler im Kader)"
   ],
   "lastActions": [
+    {
+      "ts": "2026-09-27T08:15:14.670755Z",
+      "type": "no_action_review",
+      "text": "Keine autonome Aktion: weder Kauf noch Verkauf"
+    },
+    {
+      "ts": "2026-09-27T06:14:25.858264Z",
+      "type": "transfer_recommendation",
+      "text": "Kein freigegebener Kauf-Kandidat (Constraints oder Marktlage)"
+    },
     {
       "ts": "2026-09-26T21:15:24.730783Z",
       "type": "no_action_review",
@@ -98,17 +108,7 @@
       "ts": "2026-09-26T19:13:54.483496Z",
       "type": "transfer_recommendation",
       "text": "Kein freigegebener Kauf-Kandidat (Constraints oder Marktlage)"
-    },
-    {
-      "ts": "2026-09-26T16:06:04.742747Z",
-      "type": "post_matchday",
-      "text": "Spieltag 4: 981 Team-Punkte, 0 Prognosen nachgetragen"
-    },
-    {
-      "ts": "2026-09-26T16:04:43.336927Z",
-      "type": "weekly_review",
-      "text": "0 Käufe (0 €), 0 Verkäufe (0 €), Bilanz +0 €"
     }
   ],
-  "marketSize": 21
+  "marketSize": 23
 }
