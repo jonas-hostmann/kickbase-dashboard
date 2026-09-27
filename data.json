@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T08:16:20+02:00",
+  "updatedAt": "2026-09-27T12:15:51+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
   "budget": 9767155,
@@ -18,7 +18,7 @@
       "position": "ABW",
       "score": 74.9,
       "price": 13866044,
-      "expiresIn": 28.4
+      "expiresIn": 24.4
     },
     {
       "name": "Lukasz Poreba",
@@ -29,20 +29,12 @@
       "expiresIn": 0.0
     },
     {
-      "name": "Felix Uduokhai",
-      "club": "Union Berlin",
-      "position": "ABW",
-      "score": 66.5,
-      "price": 10311961,
-      "expiresIn": 2.8
-    },
-    {
       "name": "Mitchell Weiser",
       "club": "Bremen",
       "position": "ABW",
       "score": 66.2,
       "price": 7949770,
-      "expiresIn": 34.9
+      "expiresIn": 30.9
     },
     {
       "name": "Luca Reggiani",
@@ -50,7 +42,15 @@
       "position": "ABW",
       "score": 61.5,
       "price": 3910314,
-      "expiresIn": 8.8
+      "expiresIn": 4.8
+    },
+    {
+      "name": "Marvin Schwäbe",
+      "club": "Köln",
+      "position": "TW",
+      "score": 59.8,
+      "price": 11909912,
+      "expiresIn": 17.0
     }
   ],
   "sellCandidates": [
@@ -85,6 +85,16 @@
   ],
   "lastActions": [
     {
+      "ts": "2026-09-27T12:15:35.702375Z",
+      "type": "no_action_review",
+      "text": "Keine autonome Aktion: weder Kauf noch Verkauf"
+    },
+    {
+      "ts": "2026-09-27T10:14:39.392876Z",
+      "type": "transfer_recommendation",
+      "text": "Kein freigegebener Kauf-Kandidat (Constraints oder Marktlage)"
+    },
+    {
       "ts": "2026-09-27T08:15:14.670755Z",
       "type": "no_action_review",
       "text": "Keine autonome Aktion: weder Kauf noch Verkauf"
@@ -98,16 +108,6 @@
       "ts": "2026-09-26T21:15:24.730783Z",
       "type": "no_action_review",
       "text": "Keine autonome Aktion: weder Kauf noch Verkauf"
-    },
-    {
-      "ts": "2026-09-26T19:54:56.125436Z",
-      "type": "transfer_recommendation",
-      "text": "Kein freigegebener Kauf-Kandidat (Constraints oder Marktlage)"
-    },
-    {
-      "ts": "2026-09-26T19:13:54.483496Z",
-      "type": "transfer_recommendation",
-      "text": "Kein freigegebener Kauf-Kandidat (Constraints oder Marktlage)"
     }
   ],
   "marketSize": 23
