@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T08:20:30+02:00",
+  "updatedAt": "2026-09-28T08:25:42+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
   "budget": 9767155,
@@ -18,7 +18,7 @@
       "position": "ST",
       "score": 92.5,
       "price": 18678653,
-      "expiresIn": 33.6
+      "expiresIn": 33.5
     },
     {
       "name": "Nikola Katic",
@@ -26,7 +26,7 @@
       "position": "ABW",
       "score": 86.0,
       "price": 13983431,
-      "expiresIn": 4.3
+      "expiresIn": 4.2
     },
     {
       "name": "Youri Regeer",
@@ -34,7 +34,7 @@
       "position": "MF",
       "score": 80.5,
       "price": 10219499,
-      "expiresIn": 36.0
+      "expiresIn": 35.9
     },
     {
       "name": "Manuel Neuer",
@@ -42,7 +42,7 @@
       "position": "TW",
       "score": 70.2,
       "price": 12499301,
-      "expiresIn": 14.2
+      "expiresIn": 14.1
     },
     {
       "name": "Lukasz Poreba",
@@ -85,9 +85,19 @@
   ],
   "lastActions": [
     {
+      "ts": "2026-09-28T08:25:34.262728Z",
+      "type": "no_action_review",
+      "text": "Keine autonome Aktion: weder Kauf noch Verkauf"
+    },
+    {
       "ts": "2026-09-28T08:20:21.456448Z",
       "type": "no_action_review",
       "text": "Keine autonome Aktion: weder Kauf noch Verkauf"
+    },
+    {
+      "ts": "2026-09-28T06:25:05.434821Z",
+      "type": "transfer_recommendation",
+      "text": "Kein freigegebener Kauf-Kandidat (Constraints oder Marktlage)"
     },
     {
       "ts": "2026-09-28T06:18:59.226351Z",
@@ -98,17 +108,7 @@
       "ts": "2026-09-27T12:15:35.702375Z",
       "type": "no_action_review",
       "text": "Keine autonome Aktion: weder Kauf noch Verkauf"
-    },
-    {
-      "ts": "2026-09-27T10:14:39.392876Z",
-      "type": "transfer_recommendation",
-      "text": "Kein freigegebener Kauf-Kandidat (Constraints oder Marktlage)"
-    },
-    {
-      "ts": "2026-09-27T08:15:14.670755Z",
-      "type": "no_action_review",
-      "text": "Keine autonome Aktion: weder Kauf noch Verkauf"
     }
   ],
-  "marketSize": 23
+  "marketSize": 22
 }
