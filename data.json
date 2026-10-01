@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-28T12:22:07+02:00",
+  "updatedAt": "2026-10-01T12:19:20+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
-  "budget": 9767155,
-  "teamValue": 117347377,
-  "squadCount": 11,
+  "budget": 21085420,
+  "teamValue": 103532736,
+  "squadCount": 10,
   "squadMax": 14,
   "nextMatch": {
     "label": "Borussia Dortmund – SV Werder Bremen",
@@ -13,44 +13,44 @@
   },
   "topBuys": [
     {
-      "name": "Phillip Tietz",
-      "club": "Mainz",
+      "name": "Igor Matanović",
+      "club": "Freiburg",
       "position": "ST",
       "score": 92.5,
-      "price": 18678653,
-      "expiresIn": 29.6
+      "price": 25348452,
+      "expiresIn": 0.0
     },
     {
-      "name": "Kaishu Sano",
-      "club": "Mainz",
+      "name": "Waldemar Anton",
+      "club": "Dortmund",
+      "position": "ABW",
+      "score": 89.8,
+      "price": 34269087,
+      "expiresIn": 1.7
+    },
+    {
+      "name": "Florian Neuhaus",
+      "club": "M'gladbach",
       "position": "MF",
-      "score": 90.8,
-      "price": 20018128,
-      "expiresIn": 38.1
+      "score": 81.8,
+      "price": 7368052,
+      "expiresIn": 2.0
     },
     {
-      "name": "Nikola Katic",
+      "name": "Adil Aouchiche",
+      "club": "Schalke",
+      "position": "MF",
+      "score": 78.1,
+      "price": 12290266,
+      "expiresIn": 8.3
+    },
+    {
+      "name": "Hasan Kuruçay",
       "club": "Schalke",
       "position": "ABW",
-      "score": 86.0,
-      "price": 13983431,
-      "expiresIn": 0.4
-    },
-    {
-      "name": "Youri Regeer",
-      "club": "Bremen",
-      "position": "MF",
-      "score": 80.5,
-      "price": 10219499,
-      "expiresIn": 32.0
-    },
-    {
-      "name": "Manuel Neuer",
-      "club": "Bayern",
-      "position": "TW",
-      "score": 70.2,
-      "price": 12499301,
-      "expiresIn": 10.2
+      "score": 74.5,
+      "price": 10369004,
+      "expiresIn": 16.5
     }
   ],
   "sellCandidates": [
@@ -61,23 +61,23 @@
     },
     {
       "name": "Kawasaki",
-      "reason": "MW fällt (-380.249 € seit Vortag)",
+      "reason": "Niedriger Score (32.5)",
       "value": 500000
     },
     {
       "name": "Onyedika",
-      "reason": "MW fällt (-1.213.956 € seit Vortag)",
-      "value": 8895338
+      "reason": "MW fällt (-2.549.112 € seit Vortag)",
+      "value": 7881725
     },
     {
       "name": "Seiwald",
-      "reason": "MW fällt (-4.129.766 € seit Vortag)",
-      "value": 9186629
+      "reason": "MW fällt (-2.857.042 € seit Vortag)",
+      "value": 8329401
     },
     {
-      "name": "Gruber",
-      "reason": "MW fällt (-2.591.766 € seit Vortag)",
-      "value": 11318265
+      "name": "Castello Jr.",
+      "reason": "MW fällt (-2.729.650 € seit Vortag)",
+      "value": 12858068
     }
   ],
   "alerts": [
@@ -85,30 +85,30 @@
   ],
   "lastActions": [
     {
-      "ts": "2026-09-28T12:20:39.888757Z",
-      "type": "sell",
-      "text": "Verkauf von Gruber an Kickbase fuer 11.318.265 €"
-    },
-    {
-      "ts": "2026-09-28T12:20:39.888757Z",
+      "ts": "2026-10-01T12:17:53.680489Z",
       "type": "bid",
-      "text": "Maximalgebot 19.000.000 € auf Phillip Tietz (Auktion) platziert"
+      "text": "Maximalgebot 7.900.000 € auf Florian Neuhaus platziert"
     },
     {
-      "ts": "2026-09-28T10:16:50.576027Z",
+      "ts": "2026-10-01T12:17:53.680489Z",
+      "type": "sell",
+      "text": "Verkauf von Onyedika an Kickbase fuer 7.881.725 €"
+    },
+    {
+      "ts": "2026-10-01T12:17:53.680489Z",
+      "type": "sell",
+      "text": "Verkauf von Seiwald an Kickbase fuer 8.329.401 €"
+    },
+    {
+      "ts": "2026-10-01T12:17:53.680489Z",
+      "type": "auction_review",
+      "text": "Tietz-Auktion verloren: Leo zahlte 20.111.111 € (+1,43 Mio. ueber unser Max)"
+    },
+    {
+      "ts": "2026-10-01T10:14:38.070674Z",
       "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Phillip Tietz (Score 92.5, Gebot bis 18.678.653 €)"
-    },
-    {
-      "ts": "2026-09-28T08:25:34.262728Z",
-      "type": "no_action_review",
-      "text": "Keine autonome Aktion: weder Kauf noch Verkauf"
-    },
-    {
-      "ts": "2026-09-28T08:24:15.169021Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Phillip Tietz (Score 92.5, Gebot bis 18.678.653 €)"
+      "text": "Kauf prüfen: Florian Neuhaus (Score 81.8, Gebot bis 7.368.052 €)"
     }
   ],
-  "marketSize": 20
+  "marketSize": 24
 }
