@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-01T12:19:20+02:00",
+  "updatedAt": "2026-10-05T12:39:23+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
-  "budget": 21085420,
-  "teamValue": 103532736,
+  "budget": 42223736,
+  "teamValue": 84275792,
   "squadCount": 10,
   "squadMax": 14,
   "nextMatch": {
@@ -21,36 +21,36 @@
       "expiresIn": 0.0
     },
     {
-      "name": "Waldemar Anton",
+      "name": "Adam Hložek",
+      "club": "Hoffenheim",
+      "position": "ST",
+      "score": 76.8,
+      "price": 10522167,
+      "expiresIn": 6.2
+    },
+    {
+      "name": "Felix Nmecha",
       "club": "Dortmund",
-      "position": "ABW",
-      "score": 89.8,
-      "price": 34269087,
-      "expiresIn": 1.7
-    },
-    {
-      "name": "Florian Neuhaus",
-      "club": "M'gladbach",
       "position": "MF",
-      "score": 81.8,
-      "price": 7368052,
-      "expiresIn": 2.0
+      "score": 73.2,
+      "price": 27273711,
+      "expiresIn": 3.7
     },
     {
-      "name": "Adil Aouchiche",
-      "club": "Schalke",
+      "name": "Eric Martel",
+      "club": "Mainz",
       "position": "MF",
-      "score": 78.1,
-      "price": 12290266,
-      "expiresIn": 8.3
+      "score": 72.8,
+      "price": 8040012,
+      "expiresIn": 26.0
     },
     {
-      "name": "Hasan Kuruçay",
-      "club": "Schalke",
-      "position": "ABW",
-      "score": 74.5,
-      "price": 10369004,
-      "expiresIn": 16.5
+      "name": "Ezechiel Banzuzi",
+      "club": "Leipzig",
+      "position": "MF",
+      "score": 50.8,
+      "price": 7126818,
+      "expiresIn": 16.6
     }
   ],
   "sellCandidates": [
@@ -65,19 +65,19 @@
       "value": 500000
     },
     {
-      "name": "Onyedika",
-      "reason": "MW fällt (-2.549.112 € seit Vortag)",
-      "value": 7881725
-    },
-    {
-      "name": "Seiwald",
-      "reason": "MW fällt (-2.857.042 € seit Vortag)",
-      "value": 8329401
+      "name": "Burke",
+      "reason": "Niedriger Score (35.5)",
+      "value": 1825936
     },
     {
       "name": "Castello Jr.",
-      "reason": "MW fällt (-2.729.650 € seit Vortag)",
-      "value": 12858068
+      "reason": "MW fällt (-946.744 € seit Vortag)",
+      "value": 12814988
+    },
+    {
+      "name": "Petkov",
+      "reason": "MW fällt (-700.717 € seit Vortag)",
+      "value": 9755803
     }
   ],
   "alerts": [
@@ -85,29 +85,29 @@
   ],
   "lastActions": [
     {
-      "ts": "2026-10-01T12:17:53.680489Z",
-      "type": "bid",
-      "text": "Maximalgebot 7.900.000 € auf Florian Neuhaus platziert"
+      "ts": "2026-10-05T12:37:43.477784Z",
+      "type": "no_action_review",
+      "text": "Keine weitere Aktion - Warten auf Hlozek-Entscheid"
     },
     {
-      "ts": "2026-10-01T12:17:53.680489Z",
-      "type": "sell",
-      "text": "Verkauf von Onyedika an Kickbase fuer 7.881.725 €"
-    },
-    {
-      "ts": "2026-10-01T12:17:53.680489Z",
-      "type": "sell",
-      "text": "Verkauf von Seiwald an Kickbase fuer 8.329.401 €"
-    },
-    {
-      "ts": "2026-10-01T12:17:53.680489Z",
-      "type": "auction_review",
-      "text": "Tietz-Auktion verloren: Leo zahlte 20.111.111 € (+1,43 Mio. ueber unser Max)"
-    },
-    {
-      "ts": "2026-10-01T10:14:38.070674Z",
+      "ts": "2026-10-05T10:34:29.018141Z",
       "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Florian Neuhaus (Score 81.8, Gebot bis 7.368.052 €)"
+      "text": "Kauf prüfen: Adam Hložek (Score 76.8, Gebot bis 10.522.167 €)"
+    },
+    {
+      "ts": "2026-10-05T08:23:33.132382Z",
+      "type": "bid",
+      "text": "Maximalgebot 11.500.000 € auf Adam Hlozek (ST) platziert"
+    },
+    {
+      "ts": "2026-10-05T08:20:42.380131Z",
+      "type": "sell",
+      "text": "Verkauf von Orban an Kickbase fuer 28.331.100 € (Nachholung vom 01.10.)"
+    },
+    {
+      "ts": "2026-10-05T07:47:59.311122Z",
+      "type": "post_matchday",
+      "text": "Spieltag 4: 543 Team-Punkte, 0 Prognosen nachgetragen"
     }
   ],
   "marketSize": 24
