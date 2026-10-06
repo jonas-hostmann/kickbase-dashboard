@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-05T12:39:23+02:00",
+  "updatedAt": "2026-10-06T12:23:40+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
-  "budget": 42223736,
-  "teamValue": 84275792,
-  "squadCount": 10,
+  "budget": 30733736,
+  "teamValue": 94847678,
+  "squadCount": 11,
   "squadMax": 14,
   "nextMatch": {
     "label": "Borussia Dortmund – SV Werder Bremen",
@@ -21,36 +21,36 @@
       "expiresIn": 0.0
     },
     {
-      "name": "Adam Hložek",
-      "club": "Hoffenheim",
-      "position": "ST",
-      "score": 76.8,
-      "price": 10522167,
-      "expiresIn": 6.2
-    },
-    {
-      "name": "Felix Nmecha",
-      "club": "Dortmund",
-      "position": "MF",
-      "score": 73.2,
-      "price": 27273711,
-      "expiresIn": 3.7
+      "name": "Calvin Brackelmann",
+      "club": "Augsburg",
+      "position": "ABW",
+      "score": 84.5,
+      "price": 10293969,
+      "expiresIn": 28.5
     },
     {
       "name": "Eric Martel",
       "club": "Mainz",
       "position": "MF",
       "score": 72.8,
-      "price": 8040012,
-      "expiresIn": 26.0
+      "price": 7613342,
+      "expiresIn": 2.3
     },
     {
-      "name": "Ezechiel Banzuzi",
+      "name": "David Raum",
       "club": "Leipzig",
-      "position": "MF",
-      "score": 50.8,
-      "price": 7126818,
-      "expiresIn": 16.6
+      "position": "ABW",
+      "score": 64.8,
+      "price": 28406463,
+      "expiresIn": 36.3
+    },
+    {
+      "name": "Maximilian Beier",
+      "club": "Dortmund",
+      "position": "ST",
+      "score": 61.8,
+      "price": 18638776,
+      "expiresIn": 28.1
     }
   ],
   "sellCandidates": [
@@ -67,17 +67,17 @@
     {
       "name": "Burke",
       "reason": "Niedriger Score (35.5)",
-      "value": 1825936
+      "value": 2190901
+    },
+    {
+      "name": "Hložek",
+      "reason": "300er-Risiko: Saison-Bestleistung 270/300 – nähert sich der Auto-Abgabe-Grenze",
+      "value": 10197843
     },
     {
       "name": "Castello Jr.",
-      "reason": "MW fällt (-946.744 € seit Vortag)",
-      "value": 12814988
-    },
-    {
-      "name": "Petkov",
-      "reason": "MW fällt (-700.717 € seit Vortag)",
-      "value": 9755803
+      "reason": "MW fällt (-488.151 € seit Vortag)",
+      "value": 12898264
     }
   ],
   "alerts": [
@@ -85,30 +85,30 @@
   ],
   "lastActions": [
     {
+      "ts": "2026-10-06T12:21:39.533391Z",
+      "type": "auction_review",
+      "text": "Hlozek-Auktion gewonnen: 11,49 Mio. gezahlt (0,01 Mio. unter Max)"
+    },
+    {
+      "ts": "2026-10-06T12:21:39.533391Z",
+      "type": "bid",
+      "text": "Maximalgebot 11.200.000 € auf Calvin Brackelmann (ABW) platziert"
+    },
+    {
+      "ts": "2026-10-06T12:21:39.533391Z",
+      "type": "no_action_review",
+      "text": "Hlozek BEHALTEN trotz Warnflag - kein Sofort-Verkauf"
+    },
+    {
+      "ts": "2026-10-06T10:16:58.015603Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Calvin Brackelmann (Score 84.5, Gebot bis 10.293.969 €)"
+    },
+    {
       "ts": "2026-10-05T12:37:43.477784Z",
       "type": "no_action_review",
       "text": "Keine weitere Aktion - Warten auf Hlozek-Entscheid"
-    },
-    {
-      "ts": "2026-10-05T10:34:29.018141Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Adam Hložek (Score 76.8, Gebot bis 10.522.167 €)"
-    },
-    {
-      "ts": "2026-10-05T08:23:33.132382Z",
-      "type": "bid",
-      "text": "Maximalgebot 11.500.000 € auf Adam Hlozek (ST) platziert"
-    },
-    {
-      "ts": "2026-10-05T08:20:42.380131Z",
-      "type": "sell",
-      "text": "Verkauf von Orban an Kickbase fuer 28.331.100 € (Nachholung vom 01.10.)"
-    },
-    {
-      "ts": "2026-10-05T07:47:59.311122Z",
-      "type": "post_matchday",
-      "text": "Spieltag 4: 543 Team-Punkte, 0 Prognosen nachgetragen"
     }
   ],
-  "marketSize": 24
+  "marketSize": 22
 }
