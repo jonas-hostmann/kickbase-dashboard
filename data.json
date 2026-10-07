@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-06T12:23:40+02:00",
+  "updatedAt": "2026-10-07T21:23:31+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
-  "budget": 30733736,
-  "teamValue": 94847678,
-  "squadCount": 11,
+  "budget": 19533736,
+  "teamValue": 105290392,
+  "squadCount": 12,
   "squadMax": 14,
   "nextMatch": {
     "label": "Borussia Dortmund – SV Werder Bremen",
@@ -21,36 +21,36 @@
       "expiresIn": 0.0
     },
     {
-      "name": "Calvin Brackelmann",
-      "club": "Augsburg",
-      "position": "ABW",
-      "score": 84.5,
-      "price": 10293969,
-      "expiresIn": 28.5
+      "name": "Antonio Nusa",
+      "club": "Leipzig",
+      "position": "MF",
+      "score": 92.5,
+      "price": 28170591,
+      "expiresIn": 8.4
     },
     {
-      "name": "Eric Martel",
-      "club": "Mainz",
+      "name": "Matthias Ginter",
+      "club": "Freiburg",
+      "position": "ABW",
+      "score": 92.4,
+      "price": 27520877,
+      "expiresIn": 0.4
+    },
+    {
+      "name": "Ellyes Skhiri",
+      "club": "Köln",
       "position": "MF",
-      "score": 72.8,
-      "price": 7613342,
-      "expiresIn": 2.3
+      "score": 69.8,
+      "price": 11088084,
+      "expiresIn": 29.7
     },
     {
       "name": "David Raum",
       "club": "Leipzig",
       "position": "ABW",
       "score": 64.8,
-      "price": 28406463,
-      "expiresIn": 36.3
-    },
-    {
-      "name": "Maximilian Beier",
-      "club": "Dortmund",
-      "position": "ST",
-      "score": 61.8,
-      "price": 18638776,
-      "expiresIn": 28.1
+      "price": 28456277,
+      "expiresIn": 3.3
     }
   ],
   "sellCandidates": [
@@ -67,23 +67,33 @@
     {
       "name": "Burke",
       "reason": "Niedriger Score (35.5)",
-      "value": 2190901
+      "value": 2582759
+    },
+    {
+      "name": "Machino",
+      "reason": "MW fällt (-1.117.749 € seit Vortag)",
+      "value": 4995292
     },
     {
       "name": "Hložek",
       "reason": "300er-Risiko: Saison-Bestleistung 270/300 – nähert sich der Auto-Abgabe-Grenze",
-      "value": 10197843
-    },
-    {
-      "name": "Castello Jr.",
-      "reason": "MW fällt (-488.151 € seit Vortag)",
-      "value": 12898264
+      "value": 9889520
     }
   ],
   "alerts": [
     "Aufstellung enthält verletzte/angeschlagene Spieler (nicht genug fitte Spieler im Kader)"
   ],
   "lastActions": [
+    {
+      "ts": "2026-10-07T21:22:05.175696Z",
+      "type": "no_action_review",
+      "text": "Keine Aktion - Halteplan gilt"
+    },
+    {
+      "ts": "2026-10-07T19:14:50.652849Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Jonah Sticker (Score 37.2, Gebot bis 655.163 €)"
+    },
     {
       "ts": "2026-10-06T12:21:39.533391Z",
       "type": "auction_review",
@@ -98,17 +108,7 @@
       "ts": "2026-10-06T12:21:39.533391Z",
       "type": "no_action_review",
       "text": "Hlozek BEHALTEN trotz Warnflag - kein Sofort-Verkauf"
-    },
-    {
-      "ts": "2026-10-06T10:16:58.015603Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Calvin Brackelmann (Score 84.5, Gebot bis 10.293.969 €)"
-    },
-    {
-      "ts": "2026-10-05T12:37:43.477784Z",
-      "type": "no_action_review",
-      "text": "Keine weitere Aktion - Warten auf Hlozek-Entscheid"
     }
   ],
-  "marketSize": 22
+  "marketSize": 24
 }
