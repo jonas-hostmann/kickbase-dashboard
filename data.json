@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-07T21:23:31+02:00",
+  "updatedAt": "2026-10-08T21:51:18+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
-  "budget": 19533736,
-  "teamValue": 105290392,
+  "budget": 19543736,
+  "teamValue": 106146339,
   "squadCount": 12,
   "squadMax": 14,
   "nextMatch": {
@@ -21,36 +21,36 @@
       "expiresIn": 0.0
     },
     {
-      "name": "Antonio Nusa",
-      "club": "Leipzig",
-      "position": "MF",
+      "name": "Younes Ebnoutalib",
+      "club": "Frankfurt",
+      "position": "ST",
       "score": 92.5,
-      "price": 28170591,
-      "expiresIn": 8.4
-    },
-    {
-      "name": "Matthias Ginter",
-      "club": "Freiburg",
-      "position": "ABW",
-      "score": 92.4,
-      "price": 27520877,
-      "expiresIn": 0.4
+      "price": 18873139,
+      "expiresIn": 20.6
     },
     {
       "name": "Ellyes Skhiri",
       "club": "Köln",
       "position": "MF",
       "score": 69.8,
-      "price": 11088084,
-      "expiresIn": 29.7
+      "price": 11101141,
+      "expiresIn": 14.4
     },
     {
-      "name": "David Raum",
-      "club": "Leipzig",
+      "name": "Philipp Mwene",
+      "club": "Mainz",
       "position": "ABW",
-      "score": 64.8,
-      "price": 28456277,
-      "expiresIn": 3.3
+      "score": 60.8,
+      "price": 8728003,
+      "expiresIn": 14.8
+    },
+    {
+      "name": "Laurin Curda",
+      "club": "Paderborn",
+      "position": "ABW",
+      "score": 55.5,
+      "price": 9189250,
+      "expiresIn": 17.3
     }
   ],
   "sellCandidates": [
@@ -67,23 +67,38 @@
     {
       "name": "Burke",
       "reason": "Niedriger Score (35.5)",
-      "value": 2582759
+      "value": 2984874
     },
     {
       "name": "Machino",
-      "reason": "MW fällt (-1.117.749 € seit Vortag)",
-      "value": 4995292
+      "reason": "MW fällt (-1.514.615 € seit Vortag)",
+      "value": 4810476
     },
     {
       "name": "Hložek",
       "reason": "300er-Risiko: Saison-Bestleistung 270/300 – nähert sich der Auto-Abgabe-Grenze",
-      "value": 9889520
+      "value": 9763844
     }
   ],
   "alerts": [
     "Aufstellung enthält verletzte/angeschlagene Spieler (nicht genug fitte Spieler im Kader)"
   ],
   "lastActions": [
+    {
+      "ts": "2026-10-08T21:50:57.694060Z",
+      "type": "sell",
+      "text": "Verkauf von Hlozek an Kickbase fuer 9.763.844 €"
+    },
+    {
+      "ts": "2026-10-08T21:50:57.694060Z",
+      "type": "bid",
+      "text": "Maximalgebot 20.600.000 € auf Younes Ebnoutalib (ST) platziert"
+    },
+    {
+      "ts": "2026-10-08T10:36:44.780790Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Younes Ebnoutalib (Score 92.5, Gebot bis 18.873.139 €)"
+    },
     {
       "ts": "2026-10-07T21:22:05.175696Z",
       "type": "no_action_review",
@@ -93,22 +108,7 @@
       "ts": "2026-10-07T19:14:50.652849Z",
       "type": "transfer_recommendation",
       "text": "Kauf prüfen: Jonah Sticker (Score 37.2, Gebot bis 655.163 €)"
-    },
-    {
-      "ts": "2026-10-06T12:21:39.533391Z",
-      "type": "auction_review",
-      "text": "Hlozek-Auktion gewonnen: 11,49 Mio. gezahlt (0,01 Mio. unter Max)"
-    },
-    {
-      "ts": "2026-10-06T12:21:39.533391Z",
-      "type": "bid",
-      "text": "Maximalgebot 11.200.000 € auf Calvin Brackelmann (ABW) platziert"
-    },
-    {
-      "ts": "2026-10-06T12:21:39.533391Z",
-      "type": "no_action_review",
-      "text": "Hlozek BEHALTEN trotz Warnflag - kein Sofort-Verkauf"
     }
   ],
-  "marketSize": 24
+  "marketSize": 22
 }
