@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-08T21:51:18+02:00",
+  "updatedAt": "2026-10-10T21:20:34+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
-  "budget": 19543736,
-  "teamValue": 106146339,
+  "budget": 8757580,
+  "teamValue": 116872333,
   "squadCount": 12,
   "squadMax": 14,
   "nextMatch": {
@@ -13,44 +13,44 @@
   },
   "topBuys": [
     {
-      "name": "Igor Matanović",
-      "club": "Freiburg",
-      "position": "ST",
-      "score": 92.5,
-      "price": 25348452,
-      "expiresIn": 0.0
-    },
-    {
-      "name": "Younes Ebnoutalib",
-      "club": "Frankfurt",
-      "position": "ST",
-      "score": 92.5,
-      "price": 18873139,
-      "expiresIn": 20.6
-    },
-    {
-      "name": "Ellyes Skhiri",
-      "club": "Köln",
+      "name": "Aleksandar Pavlović",
+      "club": "Bayern",
       "position": "MF",
-      "score": 69.8,
-      "price": 11101141,
-      "expiresIn": 14.4
+      "score": 92.5,
+      "price": 35250909,
+      "expiresIn": 10.0
     },
     {
-      "name": "Philipp Mwene",
-      "club": "Mainz",
-      "position": "ABW",
-      "score": 60.8,
-      "price": 8728003,
-      "expiresIn": 14.8
+      "name": "Maximilian Eggestein",
+      "club": "Freiburg",
+      "position": "MF",
+      "score": 92.4,
+      "price": 18790523,
+      "expiresIn": 2.1
     },
     {
-      "name": "Laurin Curda",
-      "club": "Paderborn",
+      "name": "Gregor Kobel",
+      "club": "Dortmund",
+      "position": "TW",
+      "score": 65.2,
+      "price": 18818016,
+      "expiresIn": 41.7
+    },
+    {
+      "name": "Koki Machida",
+      "club": "Hoffenheim",
       "position": "ABW",
-      "score": 55.5,
-      "price": 9189250,
-      "expiresIn": 17.3
+      "score": 64.2,
+      "price": 9747603,
+      "expiresIn": 19.8
+    },
+    {
+      "name": "Felix Keidel",
+      "club": "Elversberg",
+      "position": "ABW",
+      "score": 49.9,
+      "price": 8655526,
+      "expiresIn": 10.4
     }
   ],
   "sellCandidates": [
@@ -65,49 +65,45 @@
       "value": 500000
     },
     {
-      "name": "Burke",
-      "reason": "Niedriger Score (35.5)",
-      "value": 2984874
-    },
-    {
       "name": "Machino",
-      "reason": "MW fällt (-1.514.615 € seit Vortag)",
-      "value": 4810476
+      "reason": "MW fällt (-1.955.090 € seit Vortag)",
+      "value": 4664106
     },
     {
-      "name": "Hložek",
-      "reason": "300er-Risiko: Saison-Bestleistung 270/300 – nähert sich der Auto-Abgabe-Grenze",
-      "value": 9763844
+      "name": "Ebnoutalib",
+      "reason": "KRITISCH 300-Punkte-Regel (Einzelleistung/Spieltag): Saison-Bestleistung 304 – 300 an einem Spieltag bedeutet Auto-Abgabe; Verkauf erwägen, bevor die Einzelleistung reißt – Marktwert (19.077.321 €) rechtzeitig mitnehmen",
+      "value": 19077321
     }
   ],
   "alerts": [
+    "300-Punkte-Gefahr: Ebnoutalib – KRITISCH 300-Punkte-Regel (Einzelleistung/Spieltag)",
     "Aufstellung enthält verletzte/angeschlagene Spieler (nicht genug fitte Spieler im Kader)"
   ],
   "lastActions": [
     {
-      "ts": "2026-10-08T21:50:57.694060Z",
-      "type": "sell",
-      "text": "Verkauf von Hlozek an Kickbase fuer 9.763.844 €"
-    },
-    {
-      "ts": "2026-10-08T21:50:57.694060Z",
-      "type": "bid",
-      "text": "Maximalgebot 20.600.000 € auf Younes Ebnoutalib (ST) platziert"
-    },
-    {
-      "ts": "2026-10-08T10:36:44.780790Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Younes Ebnoutalib (Score 92.5, Gebot bis 18.873.139 €)"
-    },
-    {
-      "ts": "2026-10-07T21:22:05.175696Z",
+      "ts": "2026-10-10T21:20:20.907747Z",
       "type": "no_action_review",
-      "text": "Keine Aktion - Halteplan gilt"
+      "text": "Aufstellung aktuell - kein Write-Call noetig"
     },
     {
-      "ts": "2026-10-07T19:14:50.652849Z",
+      "ts": "2026-10-10T21:19:42.548325Z",
+      "type": "sell",
+      "text": "Verkauf von Ebnoutalib an Kickbase fuer 19.077.321 €"
+    },
+    {
+      "ts": "2026-10-10T21:19:42.548325Z",
+      "type": "bid",
+      "text": "Maximalgebot 18.790.523 € auf Maximilian Eggestein (MF) platziert"
+    },
+    {
+      "ts": "2026-10-10T19:14:35.114937Z",
       "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Jonah Sticker (Score 37.2, Gebot bis 655.163 €)"
+      "text": "Kauf prüfen: Maximilian Eggestein (Score 92.4, Gebot bis 18.790.523 €)"
+    },
+    {
+      "ts": "2026-10-10T12:53:26.661961Z",
+      "type": "lineup_correction",
+      "text": "Aufstellung auf 11 Spieler vervollstaendigt (3-5-2); Brackelmann, Neuhaus, Vieira, Ebnoutalib neu aufgestellt; Chaves trotz Verletzung noeti"
     }
   ],
   "marketSize": 22
