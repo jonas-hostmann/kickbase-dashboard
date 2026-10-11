@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-11T08:20:55+02:00",
+  "updatedAt": "2026-10-11T12:18:02+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
-  "budget": 27834901,
-  "teamValue": 98323012,
-  "squadCount": 11,
+  "budget": 32483443,
+  "teamValue": 93674470,
+  "squadCount": 10,
   "squadMax": 14,
   "nextMatch": {
     "label": "Borussia Dortmund – SV Werder Bremen",
@@ -13,12 +13,28 @@
   },
   "topBuys": [
     {
+      "name": "Maarten Vandevoordt",
+      "club": "Leipzig",
+      "position": "TW",
+      "score": 92.5,
+      "price": 16411197,
+      "expiresIn": 40.7
+    },
+    {
+      "name": "Joey Veerman",
+      "club": "Dortmund",
+      "position": "MF",
+      "score": 69.5,
+      "price": 16893622,
+      "expiresIn": 23.5
+    },
+    {
       "name": "Gregor Kobel",
       "club": "Dortmund",
       "position": "TW",
       "score": 65.2,
       "price": 18839096,
-      "expiresIn": 30.7
+      "expiresIn": 26.7
     },
     {
       "name": "Koki Machida",
@@ -26,7 +42,7 @@
       "position": "ABW",
       "score": 64.2,
       "price": 9945381,
-      "expiresIn": 8.7
+      "expiresIn": 4.7
     },
     {
       "name": "Hennes Behrens",
@@ -34,23 +50,7 @@
       "position": "ABW",
       "score": 54.2,
       "price": 10127337,
-      "expiresIn": 24.2
-    },
-    {
-      "name": "Grischa Prömel",
-      "club": "Stuttgart",
-      "position": "MF",
-      "score": 46.2,
-      "price": 14182694,
-      "expiresIn": 17.7
-    },
-    {
-      "name": "Rodrigo Ribeiro",
-      "club": "Augsburg",
-      "position": "ST",
-      "score": 38.8,
-      "price": 2115998,
-      "expiresIn": 6.2
+      "expiresIn": 20.2
     }
   ],
   "sellCandidates": [
@@ -63,17 +63,22 @@
       "name": "Kawasaki",
       "reason": "Niedriger Score (32.5)",
       "value": 500000
-    },
-    {
-      "name": "Machino",
-      "reason": "MW fällt (-2.003.248 € seit Vortag)",
-      "value": 4648542
     }
   ],
   "alerts": [
     "Aufstellung enthält verletzte/angeschlagene Spieler (nicht genug fitte Spieler im Kader)"
   ],
   "lastActions": [
+    {
+      "ts": "2026-10-11T12:17:38.038899Z",
+      "type": "bid",
+      "text": "Maximalgebot 17.900.000 € auf Maarten Vandevoordt (TW, Leipzig) platziert"
+    },
+    {
+      "ts": "2026-10-11T10:14:57.626319Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Maarten Vandevoordt (Score 92.5, Gebot bis 16.411.197 €)"
+    },
     {
       "ts": "2026-10-11T08:20:50.882315Z",
       "type": "no_action_review",
@@ -88,17 +93,7 @@
       "ts": "2026-10-11T08:17:21.690787Z",
       "type": "no_action_review",
       "text": "Eggestein nicht gewonnen - kein Ersatz-Transfer noetig, Budget unberuehrt"
-    },
-    {
-      "ts": "2026-10-11T06:15:04.799788Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Rodrigo Ribeiro (Score 38.8, Gebot bis 2.115.998 €)"
-    },
-    {
-      "ts": "2026-10-10T21:20:20.907747Z",
-      "type": "no_action_review",
-      "text": "Aufstellung aktuell - kein Write-Call noetig"
     }
   ],
-  "marketSize": 20
+  "marketSize": 23
 }
