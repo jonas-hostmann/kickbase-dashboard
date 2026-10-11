@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T12:18:02+02:00",
+  "updatedAt": "2026-10-11T21:15:24+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
   "budget": 32483443,
@@ -18,7 +18,7 @@
       "position": "TW",
       "score": 92.5,
       "price": 16411197,
-      "expiresIn": 40.7
+      "expiresIn": 31.7
     },
     {
       "name": "Joey Veerman",
@@ -26,7 +26,7 @@
       "position": "MF",
       "score": 69.5,
       "price": 16893622,
-      "expiresIn": 23.5
+      "expiresIn": 14.5
     },
     {
       "name": "Gregor Kobel",
@@ -34,15 +34,7 @@
       "position": "TW",
       "score": 65.2,
       "price": 18839096,
-      "expiresIn": 26.7
-    },
-    {
-      "name": "Koki Machida",
-      "club": "Hoffenheim",
-      "position": "ABW",
-      "score": 64.2,
-      "price": 9945381,
-      "expiresIn": 4.7
+      "expiresIn": 17.7
     },
     {
       "name": "Hennes Behrens",
@@ -50,7 +42,15 @@
       "position": "ABW",
       "score": 54.2,
       "price": 10127337,
-      "expiresIn": 20.2
+      "expiresIn": 11.2
+    },
+    {
+      "name": "Ísak Jóhannesson",
+      "club": "Köln",
+      "position": "MF",
+      "score": 49.8,
+      "price": 4118177,
+      "expiresIn": 10.6
     }
   ],
   "sellCandidates": [
@@ -70,30 +70,30 @@
   ],
   "lastActions": [
     {
-      "ts": "2026-10-11T12:17:38.038899Z",
-      "type": "bid",
-      "text": "Maximalgebot 17.900.000 € auf Maarten Vandevoordt (TW, Leipzig) platziert"
+      "ts": "2026-10-11T21:15:21.354164Z",
+      "type": "no_action_review",
+      "text": "Keine Gebotserhoehung noetig - Vandevoordt-Topgebot weiterhin unser 17,9-Mio.-Max"
     },
     {
-      "ts": "2026-10-11T10:14:57.626319Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Maarten Vandevoordt (Score 92.5, Gebot bis 16.411.197 €)"
-    },
-    {
-      "ts": "2026-10-11T08:20:50.882315Z",
+      "ts": "2026-10-11T21:15:21.354164Z",
       "type": "no_action_review",
       "text": "Aufstellung aktuell - kein Write-Call noetig"
     },
     {
-      "ts": "2026-10-11T08:17:21.690787Z",
-      "type": "sell",
-      "text": "Verkauf von Machino an Kickbase fuer 4.648.542 €"
+      "ts": "2026-10-11T19:14:21.256030Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Maarten Vandevoordt (Score 92.5, Gebot bis 16.411.197 €)"
     },
     {
-      "ts": "2026-10-11T08:17:21.690787Z",
-      "type": "no_action_review",
-      "text": "Eggestein nicht gewonnen - kein Ersatz-Transfer noetig, Budget unberuehrt"
+      "ts": "2026-10-11T12:49:50.565389Z",
+      "type": "lineup_correction_failed",
+      "text": "Korrektur NICHT moeglich: POST /lineup und POST /lineup/fill liefern seit So 14:45 durchgehend HTTP 403 (Token gueltig, GETs funktionieren)."
+    },
+    {
+      "ts": "2026-10-11T12:17:38.038899Z",
+      "type": "bid",
+      "text": "Maximalgebot 17.900.000 € auf Maarten Vandevoordt (TW, Leipzig) platziert"
     }
   ],
-  "marketSize": 23
+  "marketSize": 22
 }
