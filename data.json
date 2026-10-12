@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-11T21:15:24+02:00",
+  "updatedAt": "2026-10-12T12:17:01+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
   "budget": 32483443,
-  "teamValue": 93674470,
+  "teamValue": 94658570,
   "squadCount": 10,
   "squadMax": 14,
   "nextMatch": {
-    "label": "Borussia Dortmund – SV Werder Bremen",
-    "kickoff": "2026-10-09T18:30:00Z",
+    "label": "Eintracht Frankfurt – 1. FC Köln",
+    "kickoff": "2026-10-16T18:30:00Z",
     "playersAffected": 0
   },
   "topBuys": [
@@ -17,40 +17,40 @@
       "club": "Leipzig",
       "position": "TW",
       "score": 92.5,
-      "price": 16411197,
-      "expiresIn": 31.7
-    },
-    {
-      "name": "Joey Veerman",
-      "club": "Dortmund",
-      "position": "MF",
-      "score": 69.5,
-      "price": 16893622,
-      "expiresIn": 14.5
+      "price": 16480627,
+      "expiresIn": 16.7
     },
     {
       "name": "Gregor Kobel",
       "club": "Dortmund",
       "position": "TW",
-      "score": 65.2,
-      "price": 18839096,
-      "expiresIn": 17.7
+      "score": 65.3,
+      "price": 18863425,
+      "expiresIn": 2.7
     },
     {
-      "name": "Hennes Behrens",
-      "club": "Augsburg",
+      "name": "Amos Pieper",
+      "club": "Bremen",
       "position": "ABW",
-      "score": 54.2,
-      "price": 10127337,
-      "expiresIn": 11.2
+      "score": 51.4,
+      "price": 12268364,
+      "expiresIn": 29.7
     },
     {
-      "name": "Ísak Jóhannesson",
-      "club": "Köln",
-      "position": "MF",
-      "score": 49.8,
-      "price": 4118177,
-      "expiresIn": 10.6
+      "name": "Robin Gosens",
+      "club": "Schalke",
+      "position": "ABW",
+      "score": 45.5,
+      "price": 7770554,
+      "expiresIn": 19.4
+    },
+    {
+      "name": "Mattes Hansen",
+      "club": "Paderborn",
+      "position": "ABW",
+      "score": 44.5,
+      "price": 4889985,
+      "expiresIn": 21.3
     }
   ],
   "sellCandidates": [
@@ -70,6 +70,21 @@
   ],
   "lastActions": [
     {
+      "ts": "2026-10-12T12:16:57.899141Z",
+      "type": "no_action_review",
+      "text": "Keine Aktion - Plan laeuft weiter (Vandevoordt-Zuschlag erwartet Di frueh)"
+    },
+    {
+      "ts": "2026-10-12T10:15:05.464670Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Maarten Vandevoordt (Score 92.5, Gebot bis 16.480.627 €)"
+    },
+    {
+      "ts": "2026-10-12T08:02:21.266933Z",
+      "type": "weekly_review",
+      "text": "3 Käufe (43.300.000 €), 3 Verkäufe (33.489.707 €), Bilanz -9.810.293 €"
+    },
+    {
       "ts": "2026-10-11T21:15:21.354164Z",
       "type": "no_action_review",
       "text": "Keine Gebotserhoehung noetig - Vandevoordt-Topgebot weiterhin unser 17,9-Mio.-Max"
@@ -78,22 +93,7 @@
       "ts": "2026-10-11T21:15:21.354164Z",
       "type": "no_action_review",
       "text": "Aufstellung aktuell - kein Write-Call noetig"
-    },
-    {
-      "ts": "2026-10-11T19:14:21.256030Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Maarten Vandevoordt (Score 92.5, Gebot bis 16.411.197 €)"
-    },
-    {
-      "ts": "2026-10-11T12:49:50.565389Z",
-      "type": "lineup_correction_failed",
-      "text": "Korrektur NICHT moeglich: POST /lineup und POST /lineup/fill liefern seit So 14:45 durchgehend HTTP 403 (Token gueltig, GETs funktionieren)."
-    },
-    {
-      "ts": "2026-10-11T12:17:38.038899Z",
-      "type": "bid",
-      "text": "Maximalgebot 17.900.000 € auf Maarten Vandevoordt (TW, Leipzig) platziert"
     }
   ],
-  "marketSize": 22
+  "marketSize": 20
 }
