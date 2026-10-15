@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-12T12:17:01+02:00",
+  "updatedAt": "2026-10-15T21:17:13+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
-  "budget": 32483443,
-  "teamValue": 94658570,
-  "squadCount": 10,
+  "budget": 14509443,
+  "teamValue": 112608949,
+  "squadCount": 11,
   "squadMax": 14,
   "nextMatch": {
     "label": "Eintracht Frankfurt – 1. FC Köln",
@@ -13,44 +13,44 @@
   },
   "topBuys": [
     {
-      "name": "Maarten Vandevoordt",
-      "club": "Leipzig",
-      "position": "TW",
-      "score": 92.5,
-      "price": 16480627,
-      "expiresIn": 16.7
-    },
-    {
-      "name": "Gregor Kobel",
-      "club": "Dortmund",
-      "position": "TW",
-      "score": 65.3,
-      "price": 18863425,
-      "expiresIn": 2.7
-    },
-    {
-      "name": "Amos Pieper",
-      "club": "Bremen",
+      "name": "Alphonso Davies",
+      "club": "Bayern",
       "position": "ABW",
-      "score": 51.4,
-      "price": 12268364,
-      "expiresIn": 29.7
+      "score": 92.5,
+      "price": 21063608,
+      "expiresIn": 29.2
     },
     {
-      "name": "Robin Gosens",
+      "name": "Miguel Gutiérrez",
+      "club": "Leverkusen",
+      "position": "ABW",
+      "score": 92.5,
+      "price": 26404510,
+      "expiresIn": 9.3
+    },
+    {
+      "name": "Adrian Gantenbein",
       "club": "Schalke",
       "position": "ABW",
-      "score": 45.5,
-      "price": 7770554,
-      "expiresIn": 19.4
+      "score": 89.2,
+      "price": 3484268,
+      "expiresIn": 32.1
     },
     {
-      "name": "Mattes Hansen",
-      "club": "Paderborn",
+      "name": "Miro Muheim",
+      "club": "Hamburg",
       "position": "ABW",
-      "score": 44.5,
-      "price": 4889985,
-      "expiresIn": 21.3
+      "score": 72.5,
+      "price": 2226836,
+      "expiresIn": 12.0
+    },
+    {
+      "name": "Luis Díaz",
+      "club": "Bayern",
+      "position": "ST",
+      "score": 65.8,
+      "price": 47244278,
+      "expiresIn": 2.1
     }
   ],
   "sellCandidates": [
@@ -63,37 +63,48 @@
       "name": "Kawasaki",
       "reason": "Niedriger Score (32.5)",
       "value": 500000
+    },
+    {
+      "name": "Neuhaus",
+      "reason": "MW fällt (-527.405 € seit Vortag)",
+      "value": 8342536
+    },
+    {
+      "name": "Vandevoordt",
+      "reason": "KRITISCH 300-Punkte-Regel (Einzelleistung/Spieltag): Saison-Bestleistung 304 – 300 an einem Spieltag bedeutet Auto-Abgabe; Verkauf erwägen, bevor die Einzelleistung reißt – Marktwert (19.077.321 €) rechtzeitig mitnehmen",
+      "value": 16694650
     }
   ],
   "alerts": [
+    "300-Punkte-Gefahr: Vandevoordt – KRITISCH 300-Punkte-Regel (Einzelleistung/Spieltag)",
     "Aufstellung enthält verletzte/angeschlagene Spieler (nicht genug fitte Spieler im Kader)"
   ],
   "lastActions": [
     {
-      "ts": "2026-10-12T12:16:57.899141Z",
-      "type": "no_action_review",
-      "text": "Keine Aktion - Plan laeuft weiter (Vandevoordt-Zuschlag erwartet Di frueh)"
+      "ts": "2026-10-15T21:16:49.215068Z",
+      "type": "sell",
+      "text": "Verkauf von Vandevoordt an Kickbase fuer 16.694.650 €"
     },
     {
-      "ts": "2026-10-12T10:15:05.464670Z",
+      "ts": "2026-10-15T21:16:49.215068Z",
+      "type": "no_action_review",
+      "text": "Gantenbein-Gebot NICHT platziert - API-Fehler dokumentiert, kein weiterer Versuch"
+    },
+    {
+      "ts": "2026-10-15T21:16:49.215068Z",
+      "type": "no_action_review",
+      "text": "Aufstellung NICHT gesetzt - Kader zu duenn (10), Aenderung nach Transfers"
+    },
+    {
+      "ts": "2026-10-14T10:18:27.639173Z",
       "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Maarten Vandevoordt (Score 92.5, Gebot bis 16.480.627 €)"
+      "text": "Kauf prüfen: Alphonso Davies (Score 92.5, Gebot bis 21.063.608 €)"
     },
     {
-      "ts": "2026-10-12T08:02:21.266933Z",
-      "type": "weekly_review",
-      "text": "3 Käufe (43.300.000 €), 3 Verkäufe (33.489.707 €), Bilanz -9.810.293 €"
-    },
-    {
-      "ts": "2026-10-11T21:15:21.354164Z",
+      "ts": "2026-10-12T21:53:42.466064Z",
       "type": "no_action_review",
-      "text": "Keine Gebotserhoehung noetig - Vandevoordt-Topgebot weiterhin unser 17,9-Mio.-Max"
-    },
-    {
-      "ts": "2026-10-11T21:15:21.354164Z",
-      "type": "no_action_review",
-      "text": "Aufstellung aktuell - kein Write-Call noetig"
+      "text": "Keine Aktion - Vandevoordt-Gebot fuehrt, Schick unter autonomer Schwelle"
     }
   ],
-  "marketSize": 20
+  "marketSize": 23
 }
