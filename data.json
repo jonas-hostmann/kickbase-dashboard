@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-15T21:17:13+02:00",
+  "updatedAt": "2026-10-16T12:51:48+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
-  "budget": 14509443,
-  "teamValue": 112608949,
-  "squadCount": 11,
+  "budget": 31321278,
+  "teamValue": 96372473,
+  "squadCount": 10,
   "squadMax": 14,
   "nextMatch": {
     "label": "Eintracht Frankfurt – 1. FC Köln",
@@ -13,44 +13,44 @@
   },
   "topBuys": [
     {
-      "name": "Alphonso Davies",
-      "club": "Bayern",
-      "position": "ABW",
+      "name": "Atakan Karazor",
+      "club": "Stuttgart",
+      "position": "MF",
       "score": 92.5,
-      "price": 21063608,
-      "expiresIn": 29.2
+      "price": 5457674,
+      "expiresIn": 38.9
     },
     {
-      "name": "Miguel Gutiérrez",
-      "club": "Leverkusen",
+      "name": "Jano ter Horst",
+      "club": "Paderborn",
       "position": "ABW",
-      "score": 92.5,
-      "price": 26404510,
-      "expiresIn": 9.3
+      "score": 71.8,
+      "price": 8071383,
+      "expiresIn": 40.2
     },
     {
-      "name": "Adrian Gantenbein",
-      "club": "Schalke",
-      "position": "ABW",
-      "score": 89.2,
-      "price": 3484268,
-      "expiresIn": 32.1
+      "name": "Jobe Bellingham",
+      "club": "Dortmund",
+      "position": "MF",
+      "score": 61.5,
+      "price": 16763577,
+      "expiresIn": 28.8
     },
     {
-      "name": "Miro Muheim",
-      "club": "Hamburg",
-      "position": "ABW",
-      "score": 72.5,
-      "price": 2226836,
-      "expiresIn": 12.0
+      "name": "Moritz Nicolas",
+      "club": "M'gladbach",
+      "position": "TW",
+      "score": 54.8,
+      "price": 13267553,
+      "expiresIn": 0.0
     },
     {
-      "name": "Luis Díaz",
-      "club": "Bayern",
-      "position": "ST",
-      "score": 65.8,
-      "price": 47244278,
-      "expiresIn": 2.1
+      "name": "Oliver Baumann",
+      "club": "Hoffenheim",
+      "position": "TW",
+      "score": 52.8,
+      "price": 13648401,
+      "expiresIn": 6.3
     }
   ],
   "sellCandidates": [
@@ -66,45 +66,39 @@
     },
     {
       "name": "Neuhaus",
-      "reason": "MW fällt (-527.405 € seit Vortag)",
-      "value": 8342536
-    },
-    {
-      "name": "Vandevoordt",
-      "reason": "KRITISCH 300-Punkte-Regel (Einzelleistung/Spieltag): Saison-Bestleistung 304 – 300 an einem Spieltag bedeutet Auto-Abgabe; Verkauf erwägen, bevor die Einzelleistung reißt – Marktwert (19.077.321 €) rechtzeitig mitnehmen",
-      "value": 16694650
+      "reason": "MW fällt (-1.905.398 € seit Vortag)",
+      "value": 7461273
     }
   ],
   "alerts": [
-    "300-Punkte-Gefahr: Vandevoordt – KRITISCH 300-Punkte-Regel (Einzelleistung/Spieltag)",
     "Aufstellung enthält verletzte/angeschlagene Spieler (nicht genug fitte Spieler im Kader)"
   ],
   "lastActions": [
     {
-      "ts": "2026-10-15T21:16:49.215068Z",
-      "type": "sell",
-      "text": "Verkauf von Vandevoordt an Kickbase fuer 16.694.650 €"
+      "ts": "2026-10-16T12:51:44.891497Z",
+      "type": "no_action_review",
+      "text": "Aufstellung noch nicht setzbar - wartet auf Lath-Zuschlag (11:05)"
     },
     {
-      "ts": "2026-10-15T21:16:49.215068Z",
-      "type": "no_action_review",
-      "text": "Gantenbein-Gebot NICHT platziert - API-Fehler dokumentiert, kein weiterer Versuch"
+      "ts": "2026-10-16T12:32:17.783756Z",
+      "type": "bid",
+      "text": "Notfall-Maximalgebot 2.650.000 € auf Latte Lath (ST, Union Berlin) platziert"
+    },
+    {
+      "ts": "2026-10-16T12:32:17.783756Z",
+      "type": "bid",
+      "text": "Maximalgebot 5.950.000 € auf Atakan Karazor (MF, Stuttgart, Score 92.5) platziert"
+    },
+    {
+      "ts": "2026-10-16T10:16:02.364575Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Atakan Karazor (Score 92.5, Gebot bis 5.457.674 €)"
     },
     {
       "ts": "2026-10-15T21:16:49.215068Z",
       "type": "no_action_review",
       "text": "Aufstellung NICHT gesetzt - Kader zu duenn (10), Aenderung nach Transfers"
-    },
-    {
-      "ts": "2026-10-14T10:18:27.639173Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Alphonso Davies (Score 92.5, Gebot bis 21.063.608 €)"
-    },
-    {
-      "ts": "2026-10-12T21:53:42.466064Z",
-      "type": "no_action_review",
-      "text": "Keine Aktion - Vandevoordt-Gebot fuehrt, Schick unter autonomer Schwelle"
     }
   ],
-  "marketSize": 23
+  "marketSize": 20
 }
