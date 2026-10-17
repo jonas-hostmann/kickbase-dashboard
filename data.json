@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-16T12:51:48+02:00",
+  "updatedAt": "2026-10-17T12:31:00+02:00",
   "league": "Sommerkongress",
   "placement": "7 von 8",
-  "budget": 31321278,
-  "teamValue": 96372473,
+  "budget": 35825221,
+  "teamValue": 91641121,
   "squadCount": 10,
   "squadMax": 14,
   "nextMatch": {
@@ -18,15 +18,7 @@
       "position": "MF",
       "score": 92.5,
       "price": 5457674,
-      "expiresIn": 38.9
-    },
-    {
-      "name": "Jano ter Horst",
-      "club": "Paderborn",
-      "position": "ABW",
-      "score": 71.8,
-      "price": 8071383,
-      "expiresIn": 40.2
+      "expiresIn": 29.4
     },
     {
       "name": "Jobe Bellingham",
@@ -34,7 +26,15 @@
       "position": "MF",
       "score": 61.5,
       "price": 16763577,
-      "expiresIn": 28.8
+      "expiresIn": 19.3
+    },
+    {
+      "name": "Linton Maina",
+      "club": "Köln",
+      "position": "ST",
+      "score": 55.3,
+      "price": 9327677,
+      "expiresIn": 41.5
     },
     {
       "name": "Moritz Nicolas",
@@ -43,14 +43,6 @@
       "score": 54.8,
       "price": 13267553,
       "expiresIn": 0.0
-    },
-    {
-      "name": "Oliver Baumann",
-      "club": "Hoffenheim",
-      "position": "TW",
-      "score": 52.8,
-      "price": 13648401,
-      "expiresIn": 6.3
     }
   ],
   "sellCandidates": [
@@ -65,9 +57,9 @@
       "value": 500000
     },
     {
-      "name": "Neuhaus",
-      "reason": "MW fällt (-1.905.398 € seit Vortag)",
-      "value": 7461273
+      "name": "Latte Lath",
+      "reason": "MW fällt (-674.410 € seit Vortag)",
+      "value": 2422591
     }
   ],
   "alerts": [
@@ -75,30 +67,31 @@
   ],
   "lastActions": [
     {
-      "ts": "2026-10-16T12:51:44.891497Z",
-      "type": "no_action_review",
-      "text": "Aufstellung noch nicht setzbar - wartet auf Lath-Zuschlag (11:05)"
+      "ts": "2026-10-17T12:23:32.284192Z",
+      "type": "sell",
+      "text": "Verkauf von Florian Neuhaus an Kickbase fuer 7.153.943 EUR"
     },
     {
-      "ts": "2026-10-16T12:32:17.783756Z",
+      "ts": "2026-10-16T21:34:43.068101Z",
       "type": "bid",
-      "text": "Notfall-Maximalgebot 2.650.000 € auf Latte Lath (ST, Union Berlin) platziert"
+      "text": "Lath-Zuschlag: 2.650.000 € bezahlt, Kader 11/14 (Mindestkader erfuellt)"
     },
     {
-      "ts": "2026-10-16T12:32:17.783756Z",
-      "type": "bid",
-      "text": "Maximalgebot 5.950.000 € auf Atakan Karazor (MF, Stuttgart, Score 92.5) platziert"
+      "ts": "2026-10-16T21:34:43.068101Z",
+      "type": "lineup_auto_update",
+      "text": "Lath-Aufstellung NICHT moeglich - API-Fehler, manuelles Eingreifen noetig"
     },
     {
-      "ts": "2026-10-16T10:16:02.364575Z",
+      "ts": "2026-10-16T19:46:13.838933Z",
       "type": "transfer_recommendation",
       "text": "Kauf prüfen: Atakan Karazor (Score 92.5, Gebot bis 5.457.674 €)"
     },
     {
-      "ts": "2026-10-15T21:16:49.215068Z",
+      "ts": "2026-10-16T12:51:44.891497Z",
       "type": "no_action_review",
-      "text": "Aufstellung NICHT gesetzt - Kader zu duenn (10), Aenderung nach Transfers"
+      "text": "Aufstellung noch nicht setzbar - wartet auf Lath-Zuschlag (11:05)"
     }
   ],
-  "marketSize": 20
+  "marketSize": 22,
+  "staleNote": "Budget/Kader/Teamwert nach Neuhaus-Verkauf aktualisiert (Stand 17.10. 12:31 CEST); Karazor-Auktion läuft noch (Ende So 18.10. ~17:45, unser Gebot 5,95 M führt); Rômulo inzwischen für 11,45 M verkauft"
 }
