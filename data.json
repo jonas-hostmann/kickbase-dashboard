@@ -1,48 +1,40 @@
 {
-  "updatedAt": "2026-10-17T12:31:00+02:00",
+  "updatedAt": "2026-10-27T12:28:00+01:00",
   "league": "Sommerkongress",
-  "placement": "7 von 8",
-  "budget": 35825221,
-  "teamValue": 91641121,
-  "squadCount": 10,
+  "placement": "6 von 8",
+  "budget": 47735922,
+  "teamValue": 85683938,
+  "squadCount": 9,
   "squadMax": 14,
   "nextMatch": {
-    "label": "Eintracht Frankfurt – 1. FC Köln",
-    "kickoff": "2026-10-16T18:30:00Z",
-    "playersAffected": 0
+    "label": "SV 07 Elversberg - 1. FSV Mainz 05 (MD8-Start)",
+    "kickoff": "2026-10-30T19:30:00Z",
+    "playersAffected": 1
   },
   "topBuys": [
     {
-      "name": "Atakan Karazor",
-      "club": "Stuttgart",
-      "position": "MF",
+      "name": "Willi Orban",
+      "club": "Leipzig",
+      "position": "ABW",
       "score": 92.5,
-      "price": 5457674,
-      "expiresIn": 29.4
+      "price": 29627238,
+      "expiresIn": 1.4
     },
     {
-      "name": "Jobe Bellingham",
-      "club": "Dortmund",
-      "position": "MF",
-      "score": 61.5,
-      "price": 16763577,
-      "expiresIn": 19.3
+      "name": "Konrad Laimer",
+      "club": "Bayern",
+      "position": "ABW",
+      "score": 79.2,
+      "price": 22242401,
+      "expiresIn": 28.1
     },
     {
-      "name": "Linton Maina",
-      "club": "Köln",
-      "position": "ST",
-      "score": 55.3,
-      "price": 9327677,
-      "expiresIn": 41.5
-    },
-    {
-      "name": "Moritz Nicolas",
-      "club": "M'gladbach",
-      "position": "TW",
-      "score": 54.8,
-      "price": 13267553,
-      "expiresIn": 0.0
+      "name": "Lilian Brassier",
+      "club": "Frankfurt",
+      "position": "ABW",
+      "score": 76.5,
+      "price": 17028254,
+      "expiresIn": 3.9
     }
   ],
   "sellCandidates": [
@@ -57,9 +49,9 @@
       "value": 500000
     },
     {
-      "name": "Latte Lath",
-      "reason": "MW fällt (-674.410 € seit Vortag)",
-      "value": 2422591
+      "name": "Brackelmann",
+      "reason": "Status st=2",
+      "value": 13011046
     }
   ],
   "alerts": [
@@ -67,31 +59,31 @@
   ],
   "lastActions": [
     {
-      "ts": "2026-10-17T12:23:32.284192Z",
+      "ts": "2026-10-27T12:17:55.599127Z",
       "type": "sell",
-      "text": "Verkauf von Florian Neuhaus an Kickbase fuer 7.153.943 EUR"
+      "text": "Verkauf von Vieira an Kickbase fuer 13.652.538 EUR"
     },
     {
-      "ts": "2026-10-16T21:34:43.068101Z",
-      "type": "bid",
-      "text": "Lath-Zuschlag: 2.650.000 € bezahlt, Kader 11/14 (Mindestkader erfuellt)"
-    },
-    {
-      "ts": "2026-10-16T21:34:43.068101Z",
-      "type": "lineup_auto_update",
-      "text": "Lath-Aufstellung NICHT moeglich - API-Fehler, manuelles Eingreifen noetig"
-    },
-    {
-      "ts": "2026-10-16T19:46:13.838933Z",
+      "ts": "2026-10-27T11:15:21.181770Z",
       "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Atakan Karazor (Score 92.5, Gebot bis 5.457.674 €)"
+      "text": "Kauf prüfen: Konrad Laimer (Score 79.2, Gebot bis 22.242.401 €)"
     },
     {
-      "ts": "2026-10-16T12:51:44.891497Z",
+      "ts": "2026-10-26T12:23:10.537718Z",
       "type": "no_action_review",
-      "text": "Aufstellung noch nicht setzbar - wartet auf Lath-Zuschlag (11:05)"
+      "text": "Keine Transaktionen; Aufstellung aktuell (10 aufgestellt, ST-Slot leer)"
+    },
+    {
+      "ts": "2026-10-26T11:20:17.432958Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Michael Gregoritsch (Score 77.2, Gebot bis 14.854.286 €)"
+    },
+    {
+      "ts": "2026-10-25T21:18:13.290696Z",
+      "type": "sell",
+      "text": "Verkauf von Burke an Kickbase fuer 3.234.163 EUR"
     }
   ],
   "marketSize": 22,
-  "staleNote": "Budget/Kader/Teamwert nach Neuhaus-Verkauf aktualisiert (Stand 17.10. 12:31 CEST); Karazor-Auktion läuft noch (Ende So 18.10. ~17:45, unser Gebot 5,95 M führt); Rômulo inzwischen für 11,45 M verkauft"
+  "staleNote": "Stand 27.10. 12:28 CET nach Vieira-Verkauf (Budget 47,74 M, Kader 9/14, Limit 4,77 M). Funding-Plan: 2 Nachkaeufe bis Fr 30.10. 18:00. Aufstellung: 9 aufgestellt, 2 Slots leer."
 }
