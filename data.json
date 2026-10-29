@@ -1,24 +1,25 @@
 {
-  "updatedAt": "2026-10-29T12:19:00+01:00",
+  "updatedAt": "2026-10-29T21:19:08+01:00",
   "league": "Sommerkongress",
   "placement": "6 von 8",
-  "budget": 58772163,
-  "teamValue": 76076674,
+  "budget": 58782163,
+  "teamValue": 74886657,
   "squadCount": 8,
   "squadMax": 14,
   "nextMatch": {
-    "label": "SV 07 Elversberg - 1. FSV Mainz 05 (MD8-Start)",
+    "label": "Spieltag 8 – Fr 30.10., 20:30 (Elversberg–Mainz 19:30 UTC)",
     "kickoff": "2026-10-30T19:30:00Z",
-    "playersAffected": 1
+    "playersAffected": 0
   },
   "topBuys": [
     {
-      "name": "Felix Nmecha",
-      "club": "Dortmund",
-      "position": "MF",
-      "score": 85.8,
-      "price": 28722432,
-      "expiresIn": 1.5
+      "name": "Matthias Ginter",
+      "club": "Freiburg",
+      "position": "ABW",
+      "score": 89.4,
+      "price": 28217111,
+      "expiresIn": 33.2,
+      "status": "zu teuer (> Limit 5,88 M €)"
     },
     {
       "name": "David Raum",
@@ -26,7 +27,8 @@
       "position": "ABW",
       "score": 80.5,
       "price": 29662183,
-      "expiresIn": 19.9
+      "expiresIn": 10.9,
+      "status": "zu teuer (> Limit 5,88 M €)"
     },
     {
       "name": "Nathaniel Brown",
@@ -34,7 +36,8 @@
       "position": "ABW",
       "score": 78.1,
       "price": 17505458,
-      "expiresIn": 10.8
+      "expiresIn": 1.8,
+      "status": "zu teuer (> Limit 5,88 M €)"
     },
     {
       "name": "Abdoul Koné",
@@ -42,15 +45,8 @@
       "position": "ABW",
       "score": 76.9,
       "price": 1513513,
-      "expiresIn": 16.6
-    },
-    {
-      "name": "Michael Gregoritsch",
-      "club": "Augsburg",
-      "position": "ST",
-      "score": 76.5,
-      "price": 14854286,
-      "expiresIn": 0.0
+      "expiresIn": 7.7,
+      "status": "Unser Gebot führt (endet Fr ~04:53)"
     }
   ],
   "sellCandidates": [
@@ -70,6 +66,16 @@
   ],
   "lastActions": [
     {
+      "ts": "2026-10-29T20:18:57Z",
+      "type": "no_action_review",
+      "text": "kein_neuer_kauf_heute_abend"
+    },
+    {
+      "ts": "2026-10-29T20:14:36.243029Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Abdoul Koné (Score 76.9, Gebot bis 1.513.513 €)"
+    },
+    {
       "ts": "2026-10-29T12:17:22.014009Z",
       "type": "sell",
       "text": "Verkauf von Brackelmann an Kickbase fuer 11.036.241 EUR"
@@ -83,18 +89,9 @@
       "ts": "2026-10-29T11:15:23.572185Z",
       "type": "transfer_recommendation",
       "text": "Kauf prüfen: Abdoul Koné (Score 76.9, Gebot bis 1.513.513 €)"
-    },
-    {
-      "ts": "2026-10-27T12:17:55.599127Z",
-      "type": "sell",
-      "text": "Verkauf von Vieira an Kickbase fuer 13.652.538 EUR"
-    },
-    {
-      "ts": "2026-10-27T11:15:21.181770Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Konrad Laimer (Score 79.2, Gebot bis 22.242.401 €)"
     }
   ],
-  "marketSize": 24,
-  "staleNote": "Stand 29.10. 12:19 CET: Koné-Gebot 1,65 M liegt vorn (Zuschlag Do ~04:50). Brackelmann verkauft (Budget 58,77 M, Kader 8/14, Limit 5,88 M). Funding-Plan: 3 Nachkaeufe bis Fr 30.10. 18:00 (MD8-Start 20:30)."
+  "marketSize": 25,
+  "generated": "2026-10-29T21:19:26+01:00",
+  "staleNote": "Koné (ABW): Unser Gebot 1.649.729 € führt als einziges – Auktion endet Fr 30.10. ~04:53. Zuschlag erwartet. Budget 58,78 M €, Kader 8/14. Weitere Nachkäufe (ST, MF) bis Fr 18:00 geplant."
 }
