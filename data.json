@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-27T12:28:00+01:00",
+  "updatedAt": "2026-10-29T12:19:00+01:00",
   "league": "Sommerkongress",
   "placement": "6 von 8",
-  "budget": 47735922,
-  "teamValue": 85683938,
-  "squadCount": 9,
+  "budget": 58772163,
+  "teamValue": 76076674,
+  "squadCount": 8,
   "squadMax": 14,
   "nextMatch": {
     "label": "SV 07 Elversberg - 1. FSV Mainz 05 (MD8-Start)",
@@ -13,28 +13,44 @@
   },
   "topBuys": [
     {
-      "name": "Willi Orban",
+      "name": "Felix Nmecha",
+      "club": "Dortmund",
+      "position": "MF",
+      "score": 85.8,
+      "price": 28722432,
+      "expiresIn": 1.5
+    },
+    {
+      "name": "David Raum",
       "club": "Leipzig",
       "position": "ABW",
-      "score": 92.5,
-      "price": 29627238,
-      "expiresIn": 1.4
+      "score": 80.5,
+      "price": 29662183,
+      "expiresIn": 19.9
     },
     {
-      "name": "Konrad Laimer",
+      "name": "Nathaniel Brown",
       "club": "Bayern",
       "position": "ABW",
-      "score": 79.2,
-      "price": 22242401,
-      "expiresIn": 28.1
+      "score": 78.1,
+      "price": 17505458,
+      "expiresIn": 10.8
     },
     {
-      "name": "Lilian Brassier",
-      "club": "Frankfurt",
+      "name": "Abdoul Koné",
+      "club": "Leipzig",
       "position": "ABW",
+      "score": 76.9,
+      "price": 1513513,
+      "expiresIn": 16.6
+    },
+    {
+      "name": "Michael Gregoritsch",
+      "club": "Augsburg",
+      "position": "ST",
       "score": 76.5,
-      "price": 17028254,
-      "expiresIn": 3.9
+      "price": 14854286,
+      "expiresIn": 0.0
     }
   ],
   "sellCandidates": [
@@ -47,17 +63,27 @@
       "name": "Kawasaki",
       "reason": "Niedriger Score (32.5)",
       "value": 500000
-    },
-    {
-      "name": "Brackelmann",
-      "reason": "Status st=2",
-      "value": 13011046
     }
   ],
   "alerts": [
     "Aufstellung enthält verletzte/angeschlagene Spieler (nicht genug fitte Spieler im Kader)"
   ],
   "lastActions": [
+    {
+      "ts": "2026-10-29T12:17:22.014009Z",
+      "type": "sell",
+      "text": "Verkauf von Brackelmann an Kickbase fuer 11.036.241 EUR"
+    },
+    {
+      "ts": "2026-10-29T12:17:22.013962Z",
+      "type": "bid",
+      "text": "Maximalgebot 1.649.729 EUR auf Abdoul Kone (ABW, Score 76.9) platziert"
+    },
+    {
+      "ts": "2026-10-29T11:15:23.572185Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Abdoul Koné (Score 76.9, Gebot bis 1.513.513 €)"
+    },
     {
       "ts": "2026-10-27T12:17:55.599127Z",
       "type": "sell",
@@ -67,23 +93,8 @@
       "ts": "2026-10-27T11:15:21.181770Z",
       "type": "transfer_recommendation",
       "text": "Kauf prüfen: Konrad Laimer (Score 79.2, Gebot bis 22.242.401 €)"
-    },
-    {
-      "ts": "2026-10-26T12:23:10.537718Z",
-      "type": "no_action_review",
-      "text": "Keine Transaktionen; Aufstellung aktuell (10 aufgestellt, ST-Slot leer)"
-    },
-    {
-      "ts": "2026-10-26T11:20:17.432958Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Michael Gregoritsch (Score 77.2, Gebot bis 14.854.286 €)"
-    },
-    {
-      "ts": "2026-10-25T21:18:13.290696Z",
-      "type": "sell",
-      "text": "Verkauf von Burke an Kickbase fuer 3.234.163 EUR"
     }
   ],
-  "marketSize": 22,
-  "staleNote": "Stand 27.10. 12:28 CET nach Vieira-Verkauf (Budget 47,74 M, Kader 9/14, Limit 4,77 M). Funding-Plan: 2 Nachkaeufe bis Fr 30.10. 18:00. Aufstellung: 9 aufgestellt, 2 Slots leer."
+  "marketSize": 24,
+  "staleNote": "Stand 29.10. 12:19 CET: Koné-Gebot 1,65 M liegt vorn (Zuschlag Do ~04:50). Brackelmann verkauft (Budget 58,77 M, Kader 8/14, Limit 5,88 M). Funding-Plan: 3 Nachkaeufe bis Fr 30.10. 18:00 (MD8-Start 20:30)."
 }
