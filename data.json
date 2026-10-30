@@ -1,52 +1,61 @@
 {
-  "updatedAt": "2026-10-29T21:19:08+01:00",
+  "updatedAt": "2026-10-30T08:23:38+01:00",
   "league": "Sommerkongress",
   "placement": "6 von 8",
   "budget": 58782163,
-  "teamValue": 74886657,
+  "teamValue": 75772435,
   "squadCount": 8,
   "squadMax": 14,
   "nextMatch": {
-    "label": "Spieltag 8 – Fr 30.10., 20:30 (Elversberg–Mainz 19:30 UTC)",
+    "label": "Spieltag 8 – HEUTE Fr 30.10., 20:30 (Elversberg–Mainz 19:30 UTC)",
     "kickoff": "2026-10-30T19:30:00Z",
     "playersAffected": 0
   },
   "topBuys": [
     {
-      "name": "Matthias Ginter",
-      "club": "Freiburg",
-      "position": "ABW",
-      "score": 89.4,
-      "price": 28217111,
-      "expiresIn": 33.2,
-      "status": "zu teuer (> Limit 5,88 M €)"
+      "name": "Jan Thielmann",
+      "club": "1. FC Köln",
+      "position": "MF",
+      "score": 32.5,
+      "price": 1703203,
+      "expiresIn": 2.6,
+      "status": "Unser Gebot 2,0 M führt – Zuschlag ~10:57"
     },
     {
-      "name": "David Raum",
-      "club": "Leipzig",
-      "position": "ABW",
-      "score": 80.5,
-      "price": 29662183,
-      "expiresIn": 10.9,
-      "status": "zu teuer (> Limit 5,88 M €)"
+      "name": "Kennet Eichhorn",
+      "club": "Leverkusen",
+      "position": "MF",
+      "score": 20.5,
+      "price": 1509390,
+      "expiresIn": 9.9,
+      "status": "Unser Gebot 1,7 M führt – Zuschlag ~18:17"
     },
     {
-      "name": "Nathaniel Brown",
-      "club": "Bayern",
+      "name": "Jonah Sticker",
+      "club": "Paderborn",
       "position": "ABW",
-      "score": 78.1,
-      "price": 17505458,
-      "expiresIn": 1.8,
-      "status": "zu teuer (> Limit 5,88 M €)"
+      "score": 26.0,
+      "price": 1565753,
+      "expiresIn": 19.4,
+      "status": "MD9-Kandidat (endet nach Marktschluss)"
     },
     {
-      "name": "Abdoul Koné",
-      "club": "Leipzig",
-      "position": "ABW",
-      "score": 76.9,
-      "price": 1513513,
-      "expiresIn": 7.7,
-      "status": "Unser Gebot führt (endet Fr ~04:53)"
+      "name": "Isac Lidberg",
+      "club": "M'gladbach",
+      "position": "ST",
+      "score": 26.0,
+      "price": 4255789,
+      "expiresIn": 9.2,
+      "status": "MD9-Kandidat (endet nach Marktschluss)"
+    },
+    {
+      "name": "Malik Tillman",
+      "club": "Union Berlin",
+      "position": "MF",
+      "score": 52.0,
+      "price": 4976288,
+      "expiresIn": 12.0,
+      "status": "MD9-Kandidat (endet nach Marktschluss)"
     }
   ],
   "sellCandidates": [
@@ -66,32 +75,32 @@
   ],
   "lastActions": [
     {
+      "ts": "2026-10-30T07:21:56Z",
+      "type": "auction_resolution",
+      "text": "gebot_verfallen_ohne_zuschlag"
+    },
+    {
+      "ts": "2026-10-30T07:21:56Z",
+      "type": "bid",
+      "text": "maximalgebot_2_000_000_platziert"
+    },
+    {
+      "ts": "2026-10-30T07:21:56Z",
+      "type": "bid",
+      "text": "maximalgebot_1_700_000_platziert"
+    },
+    {
+      "ts": "2026-10-30T07:17:56.993551Z",
+      "type": "transfer_recommendation",
+      "text": "Kein freigegebener Kauf-Kandidat (Constraints oder Marktlage)"
+    },
+    {
       "ts": "2026-10-29T20:18:57Z",
       "type": "no_action_review",
       "text": "kein_neuer_kauf_heute_abend"
-    },
-    {
-      "ts": "2026-10-29T20:14:36.243029Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Abdoul Koné (Score 76.9, Gebot bis 1.513.513 €)"
-    },
-    {
-      "ts": "2026-10-29T12:17:22.014009Z",
-      "type": "sell",
-      "text": "Verkauf von Brackelmann an Kickbase fuer 11.036.241 EUR"
-    },
-    {
-      "ts": "2026-10-29T12:17:22.013962Z",
-      "type": "bid",
-      "text": "Maximalgebot 1.649.729 EUR auf Abdoul Kone (ABW, Score 76.9) platziert"
-    },
-    {
-      "ts": "2026-10-29T11:15:23.572185Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Abdoul Koné (Score 76.9, Gebot bis 1.513.513 €)"
     }
   ],
-  "marketSize": 25,
-  "generated": "2026-10-29T21:19:26+01:00",
-  "staleNote": "Koné (ABW): Unser Gebot 1.649.729 € führt als einziges – Auktion endet Fr 30.10. ~04:53. Zuschlag erwartet. Budget 58,78 M €, Kader 8/14. Weitere Nachkäufe (ST, MF) bis Fr 18:00 geplant."
+  "marketSize": 22,
+  "generated": "2026-10-30T08:24:04+01:00",
+  "staleNote": "Koné-Auktion OHNE Zuschlag ausgelaufen (Listing entfernt, Gebot verfallen). Deadline heute 20:30: Thielmann (2,0 M, ~10:57) + Eichhorn (1,7 M, ~18:17) gebunden -> erwarteter Kader 10/11. ABW-Not: nur Castello fit, Chaves st=128. MD9-Käufe vorbereitet: Sticker/Lidberg/Tillman."
 }
