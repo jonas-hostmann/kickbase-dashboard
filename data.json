@@ -1,61 +1,34 @@
 {
-  "updatedAt": "2026-10-30T08:23:38+01:00",
+  "updatedAt": "2026-10-31T21:21:43+01:00",
   "league": "Sommerkongress",
   "placement": "6 von 8",
-  "budget": 58782163,
-  "teamValue": 75772435,
-  "squadCount": 8,
+  "budget": 55082163,
+  "teamValue": 79456288,
+  "squadCount": 10,
   "squadMax": 14,
   "nextMatch": {
-    "label": "Spieltag 8 – HEUTE Fr 30.10., 20:30 (Elversberg–Mainz 19:30 UTC)",
-    "kickoff": "2026-10-30T19:30:00Z",
+    "label": "Spieltag 9 – Fr 06.11., 20:30 (HSV–Gladbach 19:30 UTC)",
+    "kickoff": "2026-11-06T19:30:00Z",
     "playersAffected": 0
   },
   "topBuys": [
     {
-      "name": "Jan Thielmann",
-      "club": "1. FC Köln",
-      "position": "MF",
-      "score": 32.5,
-      "price": 1703203,
-      "expiresIn": 2.6,
-      "status": "Unser Gebot 2,0 M führt – Zuschlag ~10:57"
-    },
-    {
-      "name": "Kennet Eichhorn",
-      "club": "Leverkusen",
-      "position": "MF",
-      "score": 20.5,
-      "price": 1509390,
-      "expiresIn": 9.9,
-      "status": "Unser Gebot 1,7 M führt – Zuschlag ~18:17"
-    },
-    {
-      "name": "Jonah Sticker",
-      "club": "Paderborn",
+      "name": "Wójcik",
+      "club": "Bremen",
       "position": "ABW",
-      "score": 26.0,
-      "price": 1565753,
-      "expiresIn": 19.4,
-      "status": "MD9-Kandidat (endet nach Marktschluss)"
+      "score": null,
+      "price": 4391193,
+      "expiresIn": 18.6,
+      "status": "Unser Gebot 4,8 M führt – Zuschlag So ~15:59"
     },
     {
-      "name": "Isac Lidberg",
-      "club": "M'gladbach",
-      "position": "ST",
-      "score": 26.0,
-      "price": 4255789,
-      "expiresIn": 9.2,
-      "status": "MD9-Kandidat (endet nach Marktschluss)"
-    },
-    {
-      "name": "Malik Tillman",
-      "club": "Union Berlin",
+      "name": "Skhiri",
+      "club": "Köln",
       "position": "MF",
-      "score": 52.0,
-      "price": 4976288,
-      "expiresIn": 12.0,
-      "status": "MD9-Kandidat (endet nach Marktschluss)"
+      "score": null,
+      "price": 4152596,
+      "expiresIn": 9.8,
+      "status": "Unser Gebot 4,55 M führt – Zuschlag So ~07:07"
     }
   ],
   "sellCandidates": [
@@ -65,9 +38,24 @@
       "value": 1188908
     },
     {
+      "name": "Eichhorn",
+      "reason": "MW fällt (-877.472 € seit Vortag)",
+      "value": 1393440
+    },
+    {
       "name": "Kawasaki",
       "reason": "Niedriger Score (32.5)",
       "value": 500000
+    },
+    {
+      "name": "Thielmann",
+      "reason": "MW fällt (-796.820 € seit Vortag)",
+      "value": 1607553
+    },
+    {
+      "name": "Gnabry",
+      "reason": "Status st=2",
+      "value": 16942577
     }
   ],
   "alerts": [
@@ -75,32 +63,32 @@
   ],
   "lastActions": [
     {
-      "ts": "2026-10-30T07:21:56Z",
-      "type": "auction_resolution",
-      "text": "gebot_verfallen_ohne_zuschlag"
+      "ts": "2026-10-31T20:20:21Z",
+      "type": "bid",
+      "text": "maximalgebot_4_800_000_platziert"
+    },
+    {
+      "ts": "2026-10-31T20:20:21Z",
+      "type": "bid",
+      "text": "maximalgebot_4_550_000_platziert"
+    },
+    {
+      "ts": "2026-10-31T20:20:21Z",
+      "type": "lineup_blocked",
+      "text": "lineup_update_nicht_moeglich"
+    },
+    {
+      "ts": "2026-10-31T20:16:43.183709Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Michael Gregoritsch (Score 78.8, Gebot bis 14.854.286 €)"
     },
     {
       "ts": "2026-10-30T07:21:56Z",
       "type": "bid",
       "text": "maximalgebot_2_000_000_platziert"
-    },
-    {
-      "ts": "2026-10-30T07:21:56Z",
-      "type": "bid",
-      "text": "maximalgebot_1_700_000_platziert"
-    },
-    {
-      "ts": "2026-10-30T07:17:56.993551Z",
-      "type": "transfer_recommendation",
-      "text": "Kein freigegebener Kauf-Kandidat (Constraints oder Marktlage)"
-    },
-    {
-      "ts": "2026-10-29T20:18:57Z",
-      "type": "no_action_review",
-      "text": "kein_neuer_kauf_heute_abend"
     }
   ],
-  "marketSize": 22,
-  "generated": "2026-10-30T08:24:04+01:00",
-  "staleNote": "Koné-Auktion OHNE Zuschlag ausgelaufen (Listing entfernt, Gebot verfallen). Deadline heute 20:30: Thielmann (2,0 M, ~10:57) + Eichhorn (1,7 M, ~18:17) gebunden -> erwarteter Kader 10/11. ABW-Not: nur Castello fit, Chaves st=128. MD9-Käufe vorbereitet: Sticker/Lidberg/Tillman."
+  "marketSize": 23,
+  "generated": "2026-10-31T21:21:43+01:00",
+  "staleNote": "Thielmann+Eichhorn im Kader (10). Gebote: Wójcik (ABW, So ~15:59) + Skhiri (MF, So ~07:07) führen -> erwarteter Kader 12. Lineup-Update blockiert (err 4020, braucht 11 Spieler) -> Retry nach Zuschlägen. Gnabry st=2 verletzt. MD9-Deadline Fr 06.11. 20:30."
 }
