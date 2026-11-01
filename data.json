@@ -1,27 +1,17 @@
 {
-  "updatedAt": "2026-11-01T12:17:16+01:00",
+  "updatedAt": "2026-11-01T21:16:06+01:00",
   "league": "Sommerkongress",
   "placement": "6 von 8",
-  "budget": 50532163,
-  "teamValue": 83906978,
-  "squadCount": 11,
+  "budget": 45732163,
+  "teamValue": 88241524,
+  "squadCount": 12,
   "squadMax": 14,
   "nextMatch": {
     "label": "Spieltag 9 – Fr 06.11., 20:30 (HSV–Gladbach 19:30 UTC)",
     "kickoff": "2026-11-06T19:30:00Z",
     "playersAffected": 0
   },
-  "topBuys": [
-    {
-      "name": "Wójcik",
-      "club": "Bremen",
-      "position": "ABW",
-      "score": null,
-      "price": 4334546,
-      "expiresIn": 3.7,
-      "status": "Unser Gebot 4,8 M führt – Zuschlag heute ~15:59"
-    }
-  ],
+  "topBuys": [],
   "sellCandidates": [
     {
       "name": "Chaves",
@@ -44,15 +34,30 @@
       "value": 1514817
     },
     {
-      "name": "Gnabry",
-      "reason": "Status st=2",
-      "value": 17132926
+      "name": "Skhiri",
+      "reason": "MW fällt (-844.320 € seit Vortag)",
+      "value": 4033254
     }
   ],
   "alerts": [
     "Aufstellung enthält verletzte/angeschlagene Spieler (nicht genug fitte Spieler im Kader)"
   ],
   "lastActions": [
+    {
+      "ts": "2026-11-01T20:16:03Z",
+      "type": "no_action_review",
+      "text": "kein_gebot_abends"
+    },
+    {
+      "ts": "2026-11-01T20:14:55.997822Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Maximilian Eggestein (Score 82.8, Gebot bis 21.444.854 €)"
+    },
+    {
+      "ts": "2026-11-01T20:14:16Z",
+      "type": "lineup_auto_update",
+      "text": "lineup_mit_wojcik_und_gnabry"
+    },
     {
       "ts": "2026-11-01T11:16:47Z",
       "type": "no_action_review",
@@ -62,24 +67,9 @@
       "ts": "2026-11-01T11:15:27.790251Z",
       "type": "transfer_recommendation",
       "text": "Kauf prüfen: Maximilian Eggestein (Score 82.8, Gebot bis 21.444.854 €)"
-    },
-    {
-      "ts": "2026-11-01T07:24:57.691192Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Maximilian Eggestein (Score 82.8, Gebot bis 21.444.854 €)"
-    },
-    {
-      "ts": "2026-11-01T07:21:39Z",
-      "type": "lineup_auto_update",
-      "text": "lineup_aufstellung_3-5-2_mit_skhiri_thielmann"
-    },
-    {
-      "ts": "2026-10-31T20:20:21Z",
-      "type": "bid",
-      "text": "maximalgebot_4_550_000_platziert"
     }
   ],
   "marketSize": 23,
-  "generated": "2026-11-01T12:17:16+01:00",
-  "staleNote": "Kader 11, Budget 50,53 M, Limit 5,05 M. Wójcik-Zuschlag heute ~15:59 erwartet (Kader 12, ABW-Lücke geschlossen). Keine Gebote: Eggestein/Scheller > Limit geblockt. Aufstellung mit Skhiri+Thielmann seit heute früh aktiv. MD9-Agenda: ST-Upgrade, ggf. Gnabry-Verkauf (st=2). Deadline Fr 06.11. 20:30."
+  "generated": "2026-11-01T21:16:16+01:00",
+  "staleNote": "Wójcik-Zuschlag 4,8 M -> Kader 12, Budget 45,73 M, Limit 4,57 M. MD9-Aufstellung steht (Wójcik auf ABW 3, Gnabry zurück; Kawasaki/Eichhorn OFF). Keine Gebote: alles Score-≥75 > Limit. Watch: mfghenry hat Saibari 29 M + Mwene 11,3 M verkauft – Liquidität beobachten. Deadline Fr 06.11. 20:30."
 }
