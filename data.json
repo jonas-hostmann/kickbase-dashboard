@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-31T21:21:43+01:00",
+  "updatedAt": "2026-11-01T08:27:33+01:00",
   "league": "Sommerkongress",
   "placement": "6 von 8",
-  "budget": 55082163,
-  "teamValue": 79456288,
-  "squadCount": 10,
+  "budget": 50532163,
+  "teamValue": 83906978,
+  "squadCount": 11,
   "squadMax": 14,
   "nextMatch": {
     "label": "Spieltag 9 – Fr 06.11., 20:30 (HSV–Gladbach 19:30 UTC)",
@@ -17,18 +17,9 @@
       "club": "Bremen",
       "position": "ABW",
       "score": null,
-      "price": 4391193,
-      "expiresIn": 18.6,
-      "status": "Unser Gebot 4,8 M führt – Zuschlag So ~15:59"
-    },
-    {
-      "name": "Skhiri",
-      "club": "Köln",
-      "position": "MF",
-      "score": null,
-      "price": 4152596,
-      "expiresIn": 9.8,
-      "status": "Unser Gebot 4,55 M führt – Zuschlag So ~07:07"
+      "price": 4334546,
+      "expiresIn": 7.5,
+      "status": "Unser Gebot 4,8 M führt – Zuschlag heute ~15:59"
     }
   ],
   "sellCandidates": [
@@ -39,8 +30,8 @@
     },
     {
       "name": "Eichhorn",
-      "reason": "MW fällt (-877.472 € seit Vortag)",
-      "value": 1393440
+      "reason": "MW fällt (-871.468 € seit Vortag)",
+      "value": 1278485
     },
     {
       "name": "Kawasaki",
@@ -49,19 +40,29 @@
     },
     {
       "name": "Thielmann",
-      "reason": "MW fällt (-796.820 € seit Vortag)",
-      "value": 1607553
+      "reason": "MW fällt (-794.739 € seit Vortag)",
+      "value": 1514817
     },
     {
       "name": "Gnabry",
       "reason": "Status st=2",
-      "value": 16942577
+      "value": 17132926
     }
   ],
   "alerts": [
     "Aufstellung enthält verletzte/angeschlagene Spieler (nicht genug fitte Spieler im Kader)"
   ],
   "lastActions": [
+    {
+      "ts": "2026-11-01T07:24:57.691192Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Maximilian Eggestein (Score 82.8, Gebot bis 21.444.854 €)"
+    },
+    {
+      "ts": "2026-11-01T07:21:39Z",
+      "type": "lineup_auto_update",
+      "text": "lineup_aufstellung_3-5-2_mit_skhiri_thielmann"
+    },
     {
       "ts": "2026-10-31T20:20:21Z",
       "type": "bid",
@@ -76,19 +77,9 @@
       "ts": "2026-10-31T20:20:21Z",
       "type": "lineup_blocked",
       "text": "lineup_update_nicht_moeglich"
-    },
-    {
-      "ts": "2026-10-31T20:16:43.183709Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Michael Gregoritsch (Score 78.8, Gebot bis 14.854.286 €)"
-    },
-    {
-      "ts": "2026-10-30T07:21:56Z",
-      "type": "bid",
-      "text": "maximalgebot_2_000_000_platziert"
     }
   ],
-  "marketSize": 23,
-  "generated": "2026-10-31T21:21:43+01:00",
-  "staleNote": "Thielmann+Eichhorn im Kader (10). Gebote: Wójcik (ABW, So ~15:59) + Skhiri (MF, So ~07:07) führen -> erwarteter Kader 12. Lineup-Update blockiert (err 4020, braucht 11 Spieler) -> Retry nach Zuschlägen. Gnabry st=2 verletzt. MD9-Deadline Fr 06.11. 20:30."
+  "marketSize": 24,
+  "generated": "2026-11-01T08:27:33+01:00",
+  "staleNote": "Skhiri-Zuschlag 4,55 M -> Kader 11, Budget 50,53 M. Aufstellung gesetzt (Skhiri+Thielmann in XI, Gnabry/Eichhorn OFF via Filler-Mismatch). Wójcik-Zuschlag erwartet heute ~15:59 -> Kader 12 + ABW-Slot 3 gefüllt. Limit 5,05 M - Eggestein/Scheller (Score 75+) geblockt. MD9-Deadline Fr 06.11. 20:30."
 }
