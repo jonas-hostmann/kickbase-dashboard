@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T08:27:33+01:00",
+  "updatedAt": "2026-11-01T12:17:16+01:00",
   "league": "Sommerkongress",
   "placement": "6 von 8",
   "budget": 50532163,
@@ -18,7 +18,7 @@
       "position": "ABW",
       "score": null,
       "price": 4334546,
-      "expiresIn": 7.5,
+      "expiresIn": 3.7,
       "status": "Unser Gebot 4,8 M führt – Zuschlag heute ~15:59"
     }
   ],
@@ -54,6 +54,16 @@
   ],
   "lastActions": [
     {
+      "ts": "2026-11-01T11:16:47Z",
+      "type": "no_action_review",
+      "text": "kein_gebot_mittags"
+    },
+    {
+      "ts": "2026-11-01T11:15:27.790251Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Maximilian Eggestein (Score 82.8, Gebot bis 21.444.854 €)"
+    },
+    {
       "ts": "2026-11-01T07:24:57.691192Z",
       "type": "transfer_recommendation",
       "text": "Kauf prüfen: Maximilian Eggestein (Score 82.8, Gebot bis 21.444.854 €)"
@@ -66,20 +76,10 @@
     {
       "ts": "2026-10-31T20:20:21Z",
       "type": "bid",
-      "text": "maximalgebot_4_800_000_platziert"
-    },
-    {
-      "ts": "2026-10-31T20:20:21Z",
-      "type": "bid",
       "text": "maximalgebot_4_550_000_platziert"
-    },
-    {
-      "ts": "2026-10-31T20:20:21Z",
-      "type": "lineup_blocked",
-      "text": "lineup_update_nicht_moeglich"
     }
   ],
-  "marketSize": 24,
-  "generated": "2026-11-01T08:27:33+01:00",
-  "staleNote": "Skhiri-Zuschlag 4,55 M -> Kader 11, Budget 50,53 M. Aufstellung gesetzt (Skhiri+Thielmann in XI, Gnabry/Eichhorn OFF via Filler-Mismatch). Wójcik-Zuschlag erwartet heute ~15:59 -> Kader 12 + ABW-Slot 3 gefüllt. Limit 5,05 M - Eggestein/Scheller (Score 75+) geblockt. MD9-Deadline Fr 06.11. 20:30."
+  "marketSize": 23,
+  "generated": "2026-11-01T12:17:16+01:00",
+  "staleNote": "Kader 11, Budget 50,53 M, Limit 5,05 M. Wójcik-Zuschlag heute ~15:59 erwartet (Kader 12, ABW-Lücke geschlossen). Keine Gebote: Eggestein/Scheller > Limit geblockt. Aufstellung mit Skhiri+Thielmann seit heute früh aktiv. MD9-Agenda: ST-Upgrade, ggf. Gnabry-Verkauf (st=2). Deadline Fr 06.11. 20:30."
 }
