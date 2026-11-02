@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-01T21:16:06+01:00",
+  "updatedAt": "2026-11-02T08:23:48+01:00",
   "league": "Sommerkongress",
   "placement": "6 von 8",
   "budget": 45732163,
-  "teamValue": 88241524,
+  "teamValue": 87956980,
   "squadCount": 12,
   "squadMax": 14,
   "nextMatch": {
@@ -11,7 +11,17 @@
     "kickoff": "2026-11-06T19:30:00Z",
     "playersAffected": 0
   },
-  "topBuys": [],
+  "topBuys": [
+    {
+      "name": "Nyland",
+      "club": "Leipzig",
+      "position": "TW",
+      "score": 86.5,
+      "price": 1974300,
+      "expiresIn": 24.0,
+      "status": "Unser Gebot 2,1 M führt – Zuschlag Di ~08:24"
+    }
+  ],
   "sellCandidates": [
     {
       "name": "Chaves",
@@ -20,8 +30,8 @@
     },
     {
       "name": "Eichhorn",
-      "reason": "MW fällt (-871.468 € seit Vortag)",
-      "value": 1278485
+      "reason": "MW fällt (-864.610 € seit Vortag)",
+      "value": 1158175
     },
     {
       "name": "Kawasaki",
@@ -30,19 +40,29 @@
     },
     {
       "name": "Thielmann",
-      "reason": "MW fällt (-794.739 € seit Vortag)",
-      "value": 1514817
+      "reason": "MW fällt (-792.312 € seit Vortag)",
+      "value": 1401021
     },
     {
-      "name": "Skhiri",
-      "reason": "MW fällt (-844.320 € seit Vortag)",
-      "value": 4033254
+      "name": "Gnabry",
+      "reason": "Status st=1",
+      "value": 16665989
     }
   ],
   "alerts": [
     "Aufstellung enthält verletzte/angeschlagene Spieler (nicht genug fitte Spieler im Kader)"
   ],
   "lastActions": [
+    {
+      "ts": "2026-11-02T07:21:51Z",
+      "type": "bid",
+      "text": "maximalgebot_2_100_000_platziert"
+    },
+    {
+      "ts": "2026-11-02T07:19:35.662559Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Örjan Nyland (Score 86.5, Gebot bis 1.974.300 €)"
+    },
     {
       "ts": "2026-11-01T20:16:03Z",
       "type": "no_action_review",
@@ -57,19 +77,9 @@
       "ts": "2026-11-01T20:14:16Z",
       "type": "lineup_auto_update",
       "text": "lineup_mit_wojcik_und_gnabry"
-    },
-    {
-      "ts": "2026-11-01T11:16:47Z",
-      "type": "no_action_review",
-      "text": "kein_gebot_mittags"
-    },
-    {
-      "ts": "2026-11-01T11:15:27.790251Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Maximilian Eggestein (Score 82.8, Gebot bis 21.444.854 €)"
     }
   ],
-  "marketSize": 23,
-  "generated": "2026-11-01T21:16:16+01:00",
-  "staleNote": "Wójcik-Zuschlag 4,8 M -> Kader 12, Budget 45,73 M, Limit 4,57 M. MD9-Aufstellung steht (Wójcik auf ABW 3, Gnabry zurück; Kawasaki/Eichhorn OFF). Keine Gebote: alles Score-≥75 > Limit. Watch: mfghenry hat Saibari 29 M + Mwene 11,3 M verkauft – Liquidität beobachten. Deadline Fr 06.11. 20:30."
+  "marketSize": 22,
+  "generated": "2026-11-02T08:23:48+01:00",
+  "staleNote": "Kader 12, Budget 45,73 M. Gebot: Nyland (TW, ap 132) 2,1 M führt – Zuschlag Di 08:24 erwartet -> Kader 13. MD9-XI steht (Wójcik, Gnabry zurück). Markt leert sich unter 8 M; ST-Upgrade schwierig. Ebnoutalib (22,3 M, 300er-Risiko) gelistet. Deadline Fr 06.11. 20:30."
 }
