@@ -1,37 +1,27 @@
 {
-  "updatedAt": "2026-11-02T08:23:48+01:00",
+  "updatedAt": "2026-11-03T21:16:41+01:00",
   "league": "Sommerkongress",
   "placement": "6 von 8",
-  "budget": 45732163,
-  "teamValue": 87956980,
-  "squadCount": 12,
+  "budget": 44079163,
+  "teamValue": 88754274,
+  "squadCount": 13,
   "squadMax": 14,
   "nextMatch": {
     "label": "Spieltag 9 – Fr 06.11., 20:30 (HSV–Gladbach 19:30 UTC)",
     "kickoff": "2026-11-06T19:30:00Z",
     "playersAffected": 0
   },
-  "topBuys": [
-    {
-      "name": "Nyland",
-      "club": "Leipzig",
-      "position": "TW",
-      "score": 86.5,
-      "price": 1974300,
-      "expiresIn": 24.0,
-      "status": "Unser Gebot 2,1 M führt – Zuschlag Di ~08:24"
-    }
-  ],
+  "topBuys": [],
   "sellCandidates": [
+    {
+      "name": "Eichhorn",
+      "reason": "MW fällt (-840.701 € seit Vortag)",
+      "value": 1054571
+    },
     {
       "name": "Chaves",
       "reason": "Status st=128",
       "value": 1188908
-    },
-    {
-      "name": "Eichhorn",
-      "reason": "MW fällt (-864.610 € seit Vortag)",
-      "value": 1158175
     },
     {
       "name": "Kawasaki",
@@ -40,19 +30,34 @@
     },
     {
       "name": "Thielmann",
-      "reason": "MW fällt (-792.312 € seit Vortag)",
-      "value": 1401021
+      "reason": "MW fällt (-783.834 € seit Vortag)",
+      "value": 1280640
     },
     {
       "name": "Gnabry",
-      "reason": "Status st=1",
-      "value": 16665989
+      "reason": "MW fällt (-781.998 € seit Vortag)",
+      "value": 15428130
     }
   ],
   "alerts": [
     "Aufstellung enthält verletzte/angeschlagene Spieler (nicht genug fitte Spieler im Kader)"
   ],
   "lastActions": [
+    {
+      "ts": "2026-11-03T20:15:48.830425Z",
+      "type": "transfer_recommendation",
+      "text": "Kauf prüfen: Anthony Caci (Score 86.8, Gebot bis 14.742.304 €)"
+    },
+    {
+      "ts": "2026-11-03T20:15:02Z",
+      "type": "auction_resolution",
+      "text": "zugang_nyland_bestaetigt"
+    },
+    {
+      "ts": "2026-11-03T20:15:02Z",
+      "type": "lineup_auto_update",
+      "text": "karazor_raus_kawasaki_rein"
+    },
     {
       "ts": "2026-11-02T07:21:51Z",
       "type": "bid",
@@ -62,24 +67,9 @@
       "ts": "2026-11-02T07:19:35.662559Z",
       "type": "transfer_recommendation",
       "text": "Kauf prüfen: Örjan Nyland (Score 86.5, Gebot bis 1.974.300 €)"
-    },
-    {
-      "ts": "2026-11-01T20:16:03Z",
-      "type": "no_action_review",
-      "text": "kein_gebot_abends"
-    },
-    {
-      "ts": "2026-11-01T20:14:55.997822Z",
-      "type": "transfer_recommendation",
-      "text": "Kauf prüfen: Maximilian Eggestein (Score 82.8, Gebot bis 21.444.854 €)"
-    },
-    {
-      "ts": "2026-11-01T20:14:16Z",
-      "type": "lineup_auto_update",
-      "text": "lineup_mit_wojcik_und_gnabry"
     }
   ],
   "marketSize": 22,
-  "generated": "2026-11-02T08:23:48+01:00",
-  "staleNote": "Kader 12, Budget 45,73 M. Gebot: Nyland (TW, ap 132) 2,1 M führt – Zuschlag Di 08:24 erwartet -> Kader 13. MD9-XI steht (Wójcik, Gnabry zurück). Markt leert sich unter 8 M; ST-Upgrade schwierig. Ebnoutalib (22,3 M, 300er-Risiko) gelistet. Deadline Fr 06.11. 20:30."
+  "generated": "2026-11-03T21:16:41+01:00",
+  "staleNote": "Kader 13/14, Budget 44,08 M, Limit 4,41 M. Nyland-Zuschlag 1,65 M (Second-Price, Backup-TW). Karazor st=2 -> Kawasaki in XI. Gnabry-MW fällt (-1,24 M/2 Tage) – Verkaufs-Schwelle beobachten. mfghenry kauft Pavlović 37,5 M. Caci 86.8 > Limit geblockt. Deadline Fr 06.11. 20:30."
 }
